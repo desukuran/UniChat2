@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Creating a Java Description of COM Components</title>
+</head>
+
+<body>
+
+<a name="top">
+<h2>Creating a Java<sup>&trade;</sup> Description of COM Components</h2>
+
+This article has three sections:
+
+<ul>
+<li><a href=#what>What is the Java Type Library Wizard?</a>
+<li><a href=#use>Using the Java Type Library Wizard</a>
+<li><a href=#output>Output from the Java Type Library Wizard</a>
+</ul>
+
+See the <a href=javabeep.html>sample</a> or the <a href=readme.html>
+readme</a>.
+
+<hr>
+
+<a name="what">
+<h3>What is the Java Type Library Wizard?</h3>
+<p>
+
+The Java Type Library Wizard is a tool that reads type libraries from 
+.TLB, .OLB, .OCX, .DLL, and .EXE files and creates Java class 
+files with information about the COM interfaces and methods.  
+These class files are needed for both compiling and running 
+a Java project using COM components.
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+<hr>
+
+<a name="use">
+<h3>Using the Java Type Library Wizard</h3>
+<p>
+
+To create a Java description of COM components:
+<ol>
+<li>From the Tools menu in Developer Studio, choose Java Type Library Wizard.<br>
+    The Java Type Library Wizard dialog box appears.
+<li>From the list, select the COM component(s) you want, check the
+    box to the left of the name.<br>
+	For this sample, select <b>Beeper 1.0 Type Library</b>.
+<li>Click OK.<br>
+    The Java Type Library Wizard processes the selected type libraries
+	and creates Java descriptions of the selected COM components.
+</ol>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+<hr>
+
+<a name="output">
+<h3>Output from the Java Type Library Wizard</h3>
+
+After you have created Java descriptions of COM components, the 
+output window shows two useful types of information, the <b> import</b> statement and the SUMMARY.TXT notice.
+
+<h4><b>import</b> statement</h4>
+<p>
+
+After the Java Type Library Wizard is finished, the output window 
+displays a Java <b>import</b> statement. In this sample:
+<pre>   import beeper.*;</pre>
+<p>
+
+Typically, you copy this line of text and insert it
+into the beginning of any Java source file that
+uses the COM component. This has been done for you in this
+sample; see line 22 in <b>javabeep.java</b> .
+<p>
+
+<h4>The <b>summary.txt</b> line</h4>
+<p>
+
+Following the <b>import</b> statement, the output window has 
+lines saying that the file SUMMARY.TXT has been created.
+This file lists the interfaces and classes in the Java
+description of the type library. Use this file to check the
+types for the parameters and return values in the methods.
+<p>
+
+You will note that there are no methods listed for any of
+the classes. Recall when calling COM from Java, you will 
+use the <b>class</b> file to create the COM component, but
+you must use the <b>interface</b> file to access the COM
+component.
+<p>
+
+Double-click the SUMMARY.TXT line to view that file in 
+Developer Studio.
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+</body>
+</html>

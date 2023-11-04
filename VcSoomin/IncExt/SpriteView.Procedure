@@ -1,0 +1,260 @@
+How to make an application to load a background image and some sprites
+======================================================================
+PROCEDURE
+
+1. Make an MFC SDI application project (named XXX).
+
+2. Select Project => Add to Project => Components and Controls.
+   From the Developer Studio Components list, choose "Palette Support" item,
+   and press "insert" button.
+   Choose "CMainFrame".
+
+3. Adjust CXXXView Class to be inherited from COSBView.
+
+4. Include a line in CXXXView::OnDraw(CDC* pDC) member function.
+
+	COSBView::OnDraw(pDC);
+
+5. Edit CMainFrame source so that COSBView can receive the palette messages.
+
+	BOOL CMainFrame::OnQueryNewPalette()
+	{
+		// Pass this message on to the active view (COSBView-derived)
+		CView* pview = GetActiveView();
+		if (pview)
+		{
+			return pview->SendMessage(WM_QUERYNEWPALETTE, (WPARAM)0, (LPARAM)0);
+		}
+		...
+	}
+
+	void CMainFrame::OnPaletteChanged(CWnd* pFocusWnd)
+	{
+		// Pass this message on to the active view (OSBVeiw-derived)
+		CView* pview = GetActiveView();
+		if (pview)
+		{
+			// OnPaletteChanged is not public
+			pview->SendMessage(WM_PALETTECHANGED,
+								(WPARAM)(pFocusWnd->GetSafeHwnd()),
+								(LPARAM)0);
+		}
+		...
+	}
+
+6. Add some members in CXXXDoc class.
+	Add following lines in CXXXDoc.h file
+	#include "../XXXAni/SpritLst.h"
+	class CDIB;
+	class CXXXView;
+
+	// Attributes
+	public:
+		CDIB*			GetBackground()	{ return m_pBkgndDIB; }
+		CSpriteList*	GetSpriteList()	{ return &m_SpriteList; }
+		void			GetSceneRect(CRect& prc);
+
+	// Operations
+	public:
+		BOOL			SetBackground(CDIB* pDIB);
+
+	private:
+		CDIB*		m_pBkgndDIB;	// ptr to background DIB
+		CSpriteList	m_SpriteList;	// sprite list
+		CXXXView*	GetXXXView();
+
+7. Add some members in CXXXView class.
+	Add following lines in CXXXVeiw.h file
+	#include "../XXXAni/OSBView.h"
+	class CSprite;
+	class CPhasedSprite;
+	class CXXXDoc;
+
+	// Operations
+	public:
+		BOOL			NewBackground(CDIB* pDIB);
+		virtual void	Render(CRect* pClipRect=NULL);
+		void			NewSprite(CSprite* pSprite);
+
+	private:
+		BOOL			m_bMouseCaptured;	// TRUE if mouse captured
+		CPhasedSprite*	m_pCapturedSprite;	// Pointer to captured sprite (for drag)
+		CPoint			m_ptOffset;			// offset into hit sprite
+		CPhasedSprite*	m_pMenuSprite;		// ptr to current sprite
+
+		void	SetSpriteZ(int z);
+		void	SetSpriteCols(int i);
+		void	SetSpriteRows(int i);
+		void	ShowInfo(CPoint& point, CPhasedSprite* pSprite);
+
+8. The followings are the key implementations of CXXXView.
+
+	// Create a new buffer and palette to match a new background DIB
+	BOOL CXXXView::NewBackground(CDIB* pDIB)
+	{
+		// Create a new buffer and palette
+		if (!Create(pDIB))
+			return FALSE;
+
+		// Map the colors of the background DIB to
+		// the identity palette we just created for the background
+		pDIB->MapColorsToPalette((CPalette*)GetPalette());
+
+		// Resize the main frame window to fit the background image
+		GetParentFrame()->RecalcLayout();
+		ResizeParentToFit(FALSE);	// Try shrinking first
+		ResizeParentToFit(TRUE);	// Let's be daring
+
+		// Render the entire scene to the off-screen buffer
+		Render();
+
+		// Paint the off-screen buffer to the window
+		Draw();
+
+		return TRUE;
+	}
+
+	// Render the scene to the off-screen buffer pClipRect defaults to NULL
+	void CXXXView::Render(CRect* pClipRect)
+	{
+		CXXXDoc* pDoc = GetDocument();
+		CRect rcDraw;
+
+		// get the background DIB and render it
+		CDIB* pDIB = pDoc->GetBackground();
+		if (pDIB)
+		{
+			pDIB->GetRect(rcDraw);
+			// If a clip rect was supplied use it
+			if (pClipRect)
+			{
+				rcDraw.IntersectRect(pClipRect, &rcDraw);
+			}
+
+			// draw the image of the DIB to the os buffer
+			ASSERT(m_pDIB);
+			pDIB->CopyBits(m_pDIB,       
+							rcDraw.left,
+							rcDraw.top,     
+							rcDraw.right - rcDraw.left,
+							rcDraw.bottom - rcDraw.top,
+							rcDraw.left, 
+							rcDraw.top);
+		}
+
+		// Render the sprite list from the bottom of the list to the top
+		// Note that we always clip to the background DIB
+		CSpriteList* pList = pDoc->GetSpriteList();
+		POSITION pos = pList->GetTailPosition();
+		CSprite* pSprite;
+		while (pos)
+		{
+			pSprite = pList->GetPrev(pos);
+			pSprite->Render(m_pDIB, &rcDraw);
+		}                 
+	}
+
+	// A new sprite has been added to the document
+	void CXXXView::NewSprite(CSprite* pSprite)
+	{   
+		// map the colors in the sprite DIB to the
+		// palette in the off-screen buffered view
+		if (m_pPal)
+			pSprite->MapColorsToPalette((CPalette*)m_pPal);
+
+		// Render the scene
+		Render();
+
+		// Draw the new scene to the screen
+		Draw();
+	}
+
+9. Implementations in CXXXDoc.
+
+	CXXXView* CXXXDoc::GetXXXView()
+	{
+		POSITION pos = GetFirstViewPosition();
+		ASSERT(pos);
+		CXXXView* pView = (CXXXView*)GetNextView(pos);
+		ASSERT(pView);
+		ASSERT(pView->IsKindOf(RUNTIME_CLASS(CXXXView)));
+		return pView;
+	}
+
+	void CXXXDoc::OnFileLoadbkgnd() 
+	{
+		// Create a DIB to hold the image
+		CDIB* pDIB = new CDIB;
+		// Show the file open dialog for a DIB
+		if (!pDIB->Load())
+		{
+			delete pDIB;
+			return;
+		}
+		// Make sure this is an 8 bpp DIB
+		BITMAPINFO* pBMI = pDIB->GetBitmapInfoAddress();
+		ASSERT(pBMI);
+		if (pBMI->bmiHeader.biBitCount != 8)
+		{
+			AfxMessageBox("Only 8 bpp DIBs are supported");
+			delete pDIB;
+			return;
+		}
+		// replace any existing background DIB with the new one
+		if (!SetBackground(pDIB))
+			delete pDIB;
+	}
+
+	void CXXXDoc::OnFileLoadsprite() 
+	{
+		// Create a sprite to hold the image
+		CPhasedSprite* pSprite = new CPhasedSprite;
+		// Show the file open dialog for a Sprite
+		if (!pSprite->Load())
+		{
+			delete pSprite;
+			return;
+		}
+		// Make sure this is an 8 bpp DIB
+		BITMAPINFO* pBMI = pSprite->GetBitmapInfoAddress();
+		ASSERT(pBMI);
+		if (pBMI->bmiHeader.biBitCount != 8)
+		{
+			AfxMessageBox("Only 8 bpp DIBs are supported");
+			delete pSprite;
+			return;
+		}
+		// add it to the sprite list
+		m_SpriteList.Insert(pSprite);
+		SetModifiedFlag(TRUE);
+		// Tell the view about the new sprite
+		GetXXXView()->NewSprite(pSprite);
+	}
+
+	// Set a new background DIB
+	BOOL CXXXDoc::SetBackground(CDIB* pDIB)
+	{
+		// Delete any existing sprites
+		m_SpriteList.RemoveAll();
+
+		// Delete any existing background DIB and set the new one
+		if (m_pBkgndDIB)
+			delete m_pBkgndDIB;
+		m_pBkgndDIB = pDIB;
+
+		// Note that the doc has changed
+		SetModifiedFlag(TRUE);
+
+		// Tell the view that it needs to create a new buffer and palette
+		CXXXView* pView = GetXXXView();
+		ASSERT(pView);
+		return pView->NewBackground(m_pBkgndDIB);
+	}
+
+	void CXXXDoc::GetSceneRect(CRect& prc)
+	{
+		if (!m_pBkgndDIB)
+			return;
+		m_pBkgndDIB->GetRect(prc);
+	}
+

@@ -1,0 +1,37 @@
+Palette Index
+=============
+246 ~ 255  Windows System Colors
+241 ~ 245  Advertising
+240      Outline On
+239      Black
+238      White
+237      Outline Off (Program will convert this color to transparent color)
+236      Transparent Color, RGB(128, 0, 128)
+232 ~ 235  Hair0
+228 ~ 231  Hair1
+224 ~ 227  Hair2
+220 ~ 223  Hair3    RotatePaletteIndex(220, 4*4, n*4);	// n=1,2,3,4
+216 ~ 219  Face (Fixed)
+212 ~ 215  Clothes0
+208 ~ 211  Clothes1
+204 ~ 207  Clothes2
+200 ~ 203  Clothes3	RotatePaletteIndex(200, 4*4, n*4);	// n=1,2,3,4
+196 ~ 199  Fixed Color Set
+
+10 ~ 195   Background
+0 ~ 9	   Windows System Colors
+
+===================================================
+1. 머리나 옷 색 바꿔주기
+- Character Sprite Load시 bitmap image의 Hair0, Clothes0 범위의 Palette Index 값들을
+  각각 4n (n = 1, 2, 3)만큼 증가시켜 회전시킨다.
+
+2. Outline Display
+- 모든 캐릭터 Outline은 Outline Off인 18번 컬러만으로 색칠한다.
+- master palette에서 Outline Off와 Transparent는 같은 RGB 값을 담고 있다.
+- Character Sprite Load시 bitmap image의 Outline Off의 Palette Index 값을
+  Outline On Index로 바꾸어준다.
+- Outline On <-> Outline Off
+
+3. 밤(夜)분위기 연출
+- master palette를 night palette로 바꾸어준다.

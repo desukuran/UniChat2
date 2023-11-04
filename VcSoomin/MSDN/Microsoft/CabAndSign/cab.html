@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Making Cabinets</title>
+</head>
+
+<body>
+
+<a name="top">
+<h2>Making Cabinets</h2>
+
+This article has two sections:
+<ul>
+<li><a href=#compile>Creating a CAB file using a DDF file</a>
+<li><a href=#ddf>Creating your own DDF file</a>
+</ul>
+
+See the <a href=javabeep.html>sample</a> or the <a href=readme.html>
+readme</a>.
+
+<hr>
+
+<a name="compile">
+<h3>Creating a CAB file using a DDF file</h3>
+
+This sample includes a .DDF file, FIRSTCAB.DDF. A DDF file describes the layout of the .CAB file that will be created.
+<p><h4>To create the CAB file:</h4>
+<ul>
+<li>In the project directory, run the following command:
+</ul>
+<pre>      <b>C:\CABDIR\DIAMOND /F FIRSTCAB.DDF</b></pre>
+This assumes you installed the Cabinet Development Kit in 
+<b>C:\CABDIR</b>.
+<p>
+If you have not installed the Cabinet Development Kit, you can 
+find it on the CD in the <b>\CAB&SIGN</b> directory.
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+<hr>
+
+<a name="ddf">
+<H3>Creating your own DDF file</H3>
+
+To put together your own cab file, you need to create a 
+DDF file. The DDF file is a text file that tells DIAMOND 
+exactly how you want the CAB file to be laid out.  DDF files 
+can be quite complex, especially if they describe the layout of
+CAB files used for software installation. Fortunately, CAB files 
+for distributing components over the Internet are far simpler than those
+used for installation programs. 
+<P>
+
+Create a .DDF file with the following 
+lines in it:
+
+<pre>    .OPTION EXPLICIT 
+    .Set CabinetNameTemplate=<i>CABNAME</i>.cab
+    .Set DiskDirectoryTemplate=
+    .Set Cabinet=on
+    .Set Compress=on
+    .Set ReservePerCabinetSize=6144
+    <i>CLASSNAME</i>.class
+    <i>CLASSNAME</i>.class
+</pre>
+
+where <i>CABNAME</i> is the name of the CAB file to be created (in 
+this case, <b>FIRSTCAB.CAB</b>), and <i>CLASSNAME</i> entries form 
+a list of the files to include in the CAB file (in this case, 
+<b>javabeep.class</b>).
+<p>
+
+Save this file in the project directory. Give it some descriptive 
+name. It will simplify maintenance if the name of the DDF file is 
+the same as the name of the CAB file it describes. Use the file 
+extension <b>.DDF</b>. 
+<p>
+
+As you add classes to this project, add them to the list at
+the bottom of the DDF file.
+<p>
+
+As you see, working with CAB files is quite simple once you get 
+used to creating them. In fact, they are very convenient. A CAB 
+will download faster than the individual files because the files 
+in the CAB are in a compressed format. Also, multiple class files
+can be packaged together into a single CAB file. This also 
+increases efficiency, since packaging multiple class files for
+an applet as a single CAB file decreases the number of 
+network-access operations needed to download the applet.
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+</body>
+</html>

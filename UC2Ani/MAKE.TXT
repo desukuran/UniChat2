@@ -1,0 +1,2 @@
+LINK: winmm.lib Vic32ms.lib
+Runtime DLL: Vic32.dll

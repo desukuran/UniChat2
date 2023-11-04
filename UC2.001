@@ -1,0 +1,614 @@
+# Microsoft Developer Studio Project File - Name="UC2" - Package Owner=<4>
+# Microsoft Developer Studio Generated Build File, Format Version 5.00
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+CFG=UC2 - Win32 Debug
+!MESSAGE This is not a valid makefile. To build this project using NMAKE,
+!MESSAGE use the Export Makefile command and run
+!MESSAGE 
+!MESSAGE NMAKE /f "UC2.MAK".
+!MESSAGE 
+!MESSAGE You can specify a configuration when running NMAKE
+!MESSAGE by defining the macro CFG on the command line. For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "UC2.MAK" CFG="UC2 - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "UC2 - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "UC2 - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE 
+
+# Begin Project
+# PROP Scc_ProjName ""
+# PROP Scc_LocalPath ""
+CPP=cl.exe
+MTL=midl.exe
+RSC=rc.exe
+
+!IF  "$(CFG)" == "UC2 - Win32 Release"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Release"
+# PROP BASE Intermediate_Dir "Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 6
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Release"
+# PROP Intermediate_Dir "Release"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /MD /W3 /GX /O2 /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_KOREAN" /Yu"stdafx.h" /FD /c
+# ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /o NUL /win32
+# ADD MTL /nologo /D "NDEBUG" /mktyplib203 /o NUL /win32
+# ADD BASE RSC /l 0x412 /d "NDEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x412 /d "NDEBUG" /d "_AFXDLL"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
+# ADD LINK32 UC2Ani/Release/UC2Ani.lib lz32.lib CSGUID.lib ChatSock.lib uuid.lib /nologo /subsystem:windows /machine:I386
+
+!ELSEIF  "$(CFG)" == "UC2 - Win32 Debug"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "Debug"
+# PROP BASE Intermediate_Dir "Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 6
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Ignore_Export_Lib 0
+# PROP Target_Dir ""
+# ADD BASE CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Yu"stdafx.h" /FD /c
+# ADD CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "_DEBUG" /D "WIN32" /D "_WINDOWS" /D "_AFXDLL" /D "_KOREAN" /Yu"stdafx.h" /FD /c
+# ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /o NUL /win32
+# ADD MTL /nologo /D "_DEBUG" /mktyplib203 /o NUL /win32
+# ADD BASE RSC /l 0x412 /d "_DEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x412 /d "_DEBUG" /d "_AFXDLL"
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+# ADD LINK32 UC2Ani/Debug/UC2Ani.lib winmm.lib lz32.lib CSGUID.lib ChatSock.lib uuid.lib /nologo /subsystem:windows /debug /machine:I386 /pdbtype:sept
+
+!ENDIF 
+
+# Begin Target
+
+# Name "UC2 - Win32 Release"
+# Name "UC2 - Win32 Debug"
+# Begin Group "Source Files"
+
+# PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
+# Begin Source File
+
+SOURCE=.\Actor.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\BaseChan.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\BaseSock.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Behavior.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\CloseDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\EditSend.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\InputIntDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\InputPassword.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\LoginDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MainFrm.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MemberInfo.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MemberListDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Parser.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPActor.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPChannel.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPCreateChannel.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPMemberInfo1.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Prog.Cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ProgressDlg.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PSFrame.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PSJoinChannel.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\PSMemberInfo.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\ResMan.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Splash.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\Stage.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.cpp
+# ADD CPP /Yc"stdafx.h"
+# End Source File
+# Begin Source File
+
+SOURCE=.\TileMap.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\UC2.hpj
+USERDEP__UC2_H="$(ProjDir)\hlp\AfxCore.rtf"	"$(ProjDir)\hlp\AfxPrint.rtf"	
+
+!IF  "$(CFG)" == "UC2 - Win32 Release"
+
+# Begin Custom Build - Making help file...
+OutDir=.\Release
+ProjDir=.
+TargetName=UC2
+InputPath=.\hlp\UC2.hpj
+
+"$(OutDir)\$(TargetName).hlp" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+	call "$(ProjDir)\makehelp.bat"
+
+# End Custom Build
+
+!ELSEIF  "$(CFG)" == "UC2 - Win32 Debug"
+
+# Begin Custom Build - Making help file...
+OutDir=.\Debug
+ProjDir=.
+TargetName=UC2
+InputPath=.\hlp\UC2.hpj
+
+"$(OutDir)\$(TargetName).hlp" : $(SOURCE) "$(INTDIR)" "$(OUTDIR)"
+	call "$(ProjDir)\makehelp.bat"
+
+# End Custom Build
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2.rc
+
+!IF  "$(CFG)" == "UC2 - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "UC2 - Win32 Debug"
+
+!ENDIF 
+
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2CS.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2Doc.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2History.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2Panel.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2View.cpp
+# End Source File
+# Begin Source File
+
+SOURCE=.\WhisperDlg.cpp
+# End Source File
+# End Group
+# Begin Group "Header Files"
+
+# PROP Default_Filter "h;hpp;hxx;hm;inl"
+# Begin Source File
+
+SOURCE=.\Actor.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\BaseChan.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\BaseSock.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Behavior.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\CloseDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EditHistory.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\EditSend.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\InputIntDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\InputPassword.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\LoginDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MainFrm.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MemberInfo.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\MemberListDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Parser.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPActor.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPChannel.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPCreateChannel.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PPMemberInfo1.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Prog.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ProgressDlg.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PSFrame.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PSJoinChannel.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\PSMemberInfo.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\ResMan.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Resource.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Splash.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\Stage.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\StdAfx.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\TileMap.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2CS.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2Doc.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2History.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2Messages.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2Panel.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\UC2View.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\WhisperDlg.h
+# End Source File
+# End Group
+# Begin Group "Resource Files"
+
+# PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe"
+# Begin Source File
+
+SOURCE=.\res\arrow_lb.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\arrow_lt.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\arrow_rb.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\arrow_rt.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bitmap1.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\bmp00001.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\cursor1.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\harrow.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\hgrep_do.cur
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\UC2.ico
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\UC2.rc2
+# End Source File
+# Begin Source File
+
+SOURCE=.\res\UC2Doc.ico
+# End Source File
+# End Group
+# Begin Group "Help Files"
+
+# PROP Default_Filter ""
+# Begin Source File
+
+SOURCE=.\hlp\AfxCore.rtf
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\AfxPrint.rtf
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\AppExit.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\Bullet.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\CurArw2.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\CurArw4.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\CurHelp.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\EditCopy.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\EditCut.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\EditPast.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\EditUndo.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\FileNew.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\FileOpen.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\FilePrnt.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\FileSave.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\HlpSBar.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\HlpTBar.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\MakeHelp.bat
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\RecFirst.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\RecLast.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\RecNext.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\RecPrev.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\Scmax.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\ScMenu.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\Scmin.bmp
+# End Source File
+# Begin Source File
+
+SOURCE=.\hlp\UC2.cnt
+# End Source File
+# End Group
+# Begin Source File
+
+SOURCE=.\ReadMe.txt
+# End Source File
+# Begin Source File
+
+SOURCE=.\MapEd\Data\resrc000.rit
+# End Source File
+# End Target
+# End Project
+# Section UC2 : {2D304431-3939-4339-2D30-304330344644}
+# 	1:17:ID_INDICATOR_TIME:124
+# 	1:17:ID_INDICATOR_DATE:123
+# 	2:2:BH:
+# 	2:17:ID_INDICATOR_TIME:ID_INDICATOR_TIME
+# 	2:17:ID_INDICATOR_DATE:ID_INDICATOR_DATE
+# End Section
+# Section UC2 : {359703C9-0000-0000-0000-000000000000}
+# 	1:10:IDB_SPLASH:106
+# 	2:21:SplashScreenInsertKey:4.0
+# End Section
+# Section UC2 : {73697774-2065-704F-6572-61746F727300}
+# 	1:10:IDB_SPLASH:105
+# 	2:21:SplashScreenInsertKey:4.0
+# End Section
+# Section UC2 : {20612000-5743-646E-2D64-657269766564}
+# 	2:10:CMainFrame:Palette support added
+# End Section

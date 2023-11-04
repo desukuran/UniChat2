@@ -1,0 +1,101 @@
+<html>
+<head>
+<title>Creating a Test Certificate</title>
+</head>
+
+<body>
+
+<a name="top">
+<h2>Creating a Test Certificate</h2>
+
+This article has two sections:
+
+<ul>
+<li><a href=#what>What is a Certificate?</a>
+<li><a href=#create>Making a Test Certificate</a>
+</ul>
+
+See the <a href=javabeep.html>sample</a> or the <a href=readme.html>
+readme</a>.
+
+<hr>
+
+<a name="what">
+<h3>What is a Certificate?</h3>
+<P>
+
+Before you can sign a program file you need to create a 
+company certificate. The company certificate usually 
+includes general information about the company, such has 
+contact information. For the purpose of this sample, 
+you are just testing, not publishing. So, you will 
+make a very simple test certificate file.
+<p>
+
+To get a valid Software Publisher Certificate (SPC), you will
+need to contact a certification autority.
+<p>
+
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+<hr>
+
+<a name="create">
+<h3>Making the Test Certificate</h3>
+
+To create a test certificate, type the following 
+commands in a command window:
+<pre>   C:\SIGN\MAKECERT -u:<i>MyKey</i> -n:CN=<i>MySoftwareCompany</i> -k:MYKEY.PVK CERT.CER
+   C:\SIGN\CERT2SPC C:\SIGN\ROOT.CER CERT.CER CERT.SPC
+</pre>
+
+<b>Note</b>: The MAKECERT tool is sensitive to the case of 
+the flags. You must use lowercase <b>-u</b>, <b>-n</b>, and <b>-k</b>. 
+The value for the <b>-n</b> flag uses uppercase <b>CN=</b>.
+<p>
+ 
+These command assume that you installed the Code Signing
+Kit in the C:\SIGN directory. If you have not installed 
+the Code Signing Kit, you can find it on the CD-ROM in 
+the \CAB&SIGN directory.
+<p>
+
+The first command, MAKECERT, creates a test certificate 
+file CERT.CER and an associated private key file 
+MYKEY.PVK. You can replace the <i>MyKey</i> and 
+<i>MySoftwareCompany</i> with values of your own choosing. 
+The private key file MYKEY.PVK holds the <i>MyKey</i> value for 
+this certificate. You can change the name of the test
+certificate file or the private key file. If you do, 
+you will need to change the parameters to later commands 
+to use your filenames.
+<p>
+
+The second command, CERT2SPC, creates a Software Publisher 
+Certificate (SPC) from the test certificate file CERT.CER. 
+It uses ROOT.CER for information on the test certification 
+authority. It creates the SPC file CERT.SPC.
+<p>
+
+You use the private key file MYKEY.PVK and the SPC file
+CERT.SPC to sign program files. For information on signing
+program files, see <a href=sign.html>Signing a Program File</a>.
+<p>
+
+The PVK and SPC files can be used over and over. Creating
+them in a separate directory facilitates their reuse.
+In a non-test case, you must guard these two files, since
+they will digitally sign any program file as coming from 
+you.
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+</body>
+</html>

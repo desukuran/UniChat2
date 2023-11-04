@@ -1,0 +1,668 @@
+"General"
+{
+    "Contents"
+    {
+    "PackagingEngine" = "{61F73E15-FC82-11D0-A4B8-006097C9933C}"
+    "ProjectName" = "UC2Setup"
+    "SccProjectName" = ""
+    "SccLocalPath" = ""
+    "SccAuxPath" = ""
+    "SccProvider" = ""
+    }
+}
+"Inputs"
+{
+    "F:{777E3180-B9A8-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\U2Panel.uds"
+    }
+    "F:{777E3181-B9A8-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\U2Login.uds"
+    }
+    "F:{777E3182-B9A8-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\T00.UDS"
+    }
+    "F:{7EEA98B2-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\System\\MSVCRT.DLL"
+    }
+    "F:{7EEA98B3-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\System\\MFC42.DLL"
+    }
+    "F:{7EEA98B4-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\System\\MSVCIRT.DLL"
+    }
+    "F:{7EEA98B5-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\System\\ChatSock.dll"
+    }
+    "F:{7EEA98B6-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\Release\\UC2Ani.dll"
+    }
+    "F:{7EEA98B7-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\Release\\UC2.exe"
+    }
+    "F:{7EEA98B8-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\u2res000.rit"
+    }
+    "F:{7EEA98B9-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\4020CSIN.SIT"
+    }
+    "F:{7EEA98BA-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000CASB.SIT"
+    }
+    "F:{7EEA98BB-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000CEMT.SIT"
+    }
+    "F:{7EEA98BC-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000CSIN.SIT"
+    }
+    "F:{7EEA98BD-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000EAST.SIT"
+    }
+    "F:{7EEA98BE-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000HAUS.SIT"
+    }
+    "F:{7EEA98BF-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000PARK.SIT"
+    }
+    "F:{7EEA98C0-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000SPAC.SIT"
+    }
+    "F:{7EEA98C1-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000STON.SIT"
+    }
+    "F:{7EEA98C2-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000STRT.SIT"
+    }
+    "F:{7EEA98C3-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000WASH.SIT"
+    }
+    "F:{7EEA98C4-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000WINT.SIT"
+    }
+    "F:{7EEA98C5-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0001CTRM.SIT"
+    }
+    "F:{7EEA98C6-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0001DEMO.SIT"
+    }
+    "F:{7EEA98C7-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0002CTRM.SIT"
+    }
+    "F:{7EEA98C8-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0002DEMO.SIT"
+    }
+    "F:{7EEA98C9-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0003CTRM.SIT"
+    }
+    "F:{7EEA98CA-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0003DEMO.SIT"
+    }
+    "F:{7EEA98CB-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0004CTRM.SIT"
+    }
+    "F:{7EEA98CC-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0005CTRM.SIT"
+    }
+    "F:{7EEA98CD-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0010CASA.SIT"
+    }
+    "F:{7EEA98CE-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0010CASB.SIT"
+    }
+    "F:{7EEA98CF-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0010CEMT.SIT"
+    }
+    "F:{7EEA98D0-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0010CSIN.SIT"
+    }
+    "F:{7EEA98D3-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0020CASA.SIT"
+    }
+    "F:{7EEA98D4-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0020CASB.SIT"
+    }
+    "F:{7EEA98D5-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0020CEMT.SIT"
+    }
+    "F:{7EEA98D6-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0020CSIN.SIT"
+    }
+    "F:{7EEA98D7-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0020HAUS.SIT"
+    }
+    "F:{7EEA98D9-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0020PARK.SIT"
+    }
+    "F:{7EEA98DB-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0030CASA.SIT"
+    }
+    "F:{7EEA98DC-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0030CASB.SIT"
+    }
+    "F:{7EEA98DF-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0040CASA.SIT"
+    }
+    "F:{7EEA98E2-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\1000CSIN.SIT"
+    }
+    "F:{7EEA98E3-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\1010CSIN.SIT"
+    }
+    "F:{7EEA98E4-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\1020CSIN.SIT"
+    }
+    "F:{7EEA98E5-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2000CSIN.SIT"
+    }
+    "F:{7EEA98E6-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2010CSIN.SIT"
+    }
+    "F:{7EEA98E7-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2020CSIN.SIT"
+    }
+    "F:{7EEA98E8-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2100CSIN.SIT"
+    }
+    "F:{7EEA98E9-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2110CSIN.SIT"
+    }
+    "F:{7EEA98EA-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2200CSIN.SIT"
+    }
+    "F:{7EEA98EB-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\2220CSIN.SIT"
+    }
+    "F:{7EEA98EC-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3000CSIN.SIT"
+    }
+    "F:{7EEA98ED-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3010CSIN.SIT"
+    }
+    "F:{7EEA98EE-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3020CSIN.SIT"
+    }
+    "F:{7EEA98EF-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3100CSIN.SIT"
+    }
+    "F:{7EEA98F0-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3110CSIN.SIT"
+    }
+    "F:{7EEA98F1-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3200CSIN.SIT"
+    }
+    "F:{7EEA98F2-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\3220CSIN.SIT"
+    }
+    "F:{7EEA98F3-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\4000CSIN.SIT"
+    }
+    "F:{7EEA98F4-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\4010CSIN.SIT"
+    }
+    "F:{7EEA98F5-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\0000CASA.SIT"
+    }
+    "F:{7EEA98F6-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\Developers.htm"
+    }
+    "F:{7EEA98F7-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\PREVIEW.SIT"
+    }
+    "F:{7EEA98F8-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\CW01.UDS"
+    }
+    "F:{7EEA98F9-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\CA00.UDS"
+    }
+    "F:{7EEA98FA-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\CD00.UDS"
+    }
+    "F:{7EEA98FB-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\CG00.UDS"
+    }
+    "F:{7EEA98FC-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\CS00.UDS"
+    }
+    "F:{7EEA98FD-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\CW00.UDS"
+    }
+    "F:{7EEA98FE-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\A00.UDS"
+    }
+    "F:{7EEA98FF-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\event000.mid"
+    }
+    "F:{7EEA9900-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\fuget002.mid"
+    }
+    "F:{7EEA9901-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\fuget003.mid"
+    }
+    "F:{7EEA9902-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\fuget004.mid"
+    }
+    "F:{7EEA9903-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\fuget006.mid"
+    }
+    "F:{7EEA9904-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\fuget007.mid"
+    }
+    "F:{7EEA9905-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\fuget009.mid"
+    }
+    "F:{7EEA9906-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MCVTN000.MID"
+    }
+    "F:{7EEA9907-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MDRMO000.MID"
+    }
+    "F:{7EEA9908-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MFANF000.MID"
+    }
+    "F:{7EEA9909-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MINTR000.MID"
+    }
+    "F:{7EEA990A-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MINTR001.MID"
+    }
+    "F:{7EEA990B-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ000.MID"
+    }
+    "F:{7EEA990C-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ001.MID"
+    }
+    "F:{7EEA990D-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ002.MID"
+    }
+    "F:{7EEA990E-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ003.MID"
+    }
+    "F:{7EEA990F-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ004.MID"
+    }
+    "F:{7EEA9910-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ005.MID"
+    }
+    "F:{7EEA9911-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJAZZ006.MID"
+    }
+    "F:{7EEA9912-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MJOPL000.MID"
+    }
+    "F:{7EEA9913-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MMIDI000.MID"
+    }
+    "F:{7EEA9914-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MMIDI001.MID"
+    }
+    "F:{7EEA9915-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MMORE000.MID"
+    }
+    "F:{7EEA9916-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MMZRT000.MID"
+    }
+    "F:{7EEA9917-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\motwn000.mid"
+    }
+    "F:{7EEA9918-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MRACH000.MID"
+    }
+    "F:{7EEA9919-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MSADD000.MID"
+    }
+    "F:{7EEA991A-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MSTRS000.MID"
+    }
+    "F:{7EEA991B-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MSUSP000.MID"
+    }
+    "F:{7EEA991C-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MUMCH000.MID"
+    }
+    "F:{7EEA991D-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\MXMAS000.MID"
+    }
+    "F:{7EEA991E-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\overt000.mid"
+    }
+    "F:{7EEA991F-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\yesss000.mid"
+    }
+    "F:{7EEA9920-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SAGRY000.WAV"
+    }
+    "F:{7EEA9921-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SCHNG000.WAV"
+    }
+    "F:{7EEA9922-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SCHNG001.WAV"
+    }
+    "F:{7EEA9923-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SCHNG002.WAV"
+    }
+    "F:{7EEA9924-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SCLOS000.WAV"
+    }
+    "F:{7EEA9925-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SCRYS000.WAV"
+    }
+    "F:{7EEA9926-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SEMBR000.WAV"
+    }
+    "F:{7EEA9927-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SEMBR001.WAV"
+    }
+    "F:{7EEA9928-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SHIT_000.WAV"
+    }
+    "F:{7EEA9929-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SHIT_001.WAV"
+    }
+    "F:{7EEA992A-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SHIT_002.WAV"
+    }
+    "F:{7EEA992B-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SHIT_003.WAV"
+    }
+    "F:{7EEA992C-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SJPDN000.WAV"
+    }
+    "F:{7EEA992D-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SJPDN001.WAV"
+    }
+    "F:{7EEA992E-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SJPUP000.WAV"
+    }
+    "F:{7EEA992F-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SJPUP001.WAV"
+    }
+    "F:{7EEA9930-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SKISS000.WAV"
+    }
+    "F:{7EEA9931-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SPICK000.WAV"
+    }
+    "F:{7EEA9932-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SSEXY000.WAV"
+    }
+    "F:{7EEA9933-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SSTEP000.WAV"
+    }
+    "F:{7EEA9934-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\SSURP000.WAV"
+    }
+    "F:{7EEA9935-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STEMP000.WAV"
+    }
+    "F:{7EEA9936-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STEMP001.WAV"
+    }
+    "F:{7EEA9937-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STEMP002.WAV"
+    }
+    "F:{7EEA9938-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STEMP003.WAV"
+    }
+    "F:{7EEA9939-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STRAN000.WAV"
+    }
+    "F:{7EEA993A-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STURN000.WAV"
+    }
+    "F:{7EEA993B-B9A4-11D2-89E7-0080C7EADFBB}"
+    {
+    "Filename" = "F:\\UC2\\MapEd\\Data\\STURN001.WAV"
+    }
+}
+"Configurations"
+{
+    "Debug"
+    {
+    "DisplayName" = "Debug"
+    "IsDebugOnly" = "T"
+    "IsReleaseOnly" = "F"
+        "EngineSpecificProperties"
+        {
+            "{61F73E15-FC82-11D0-A4B8-006097C9933C}"
+            {
+            "OutputFilename" = "UC2Setup.EXE"
+            "AppName" = "UniChat 2 English"
+            "InstallDirName" = "UniChat2"
+            "CreateInProgramFiles" = "T"
+            "CreateInStartMenu" = "T"
+            "StartName" = "UniChat 2"
+            "StartInvokeEXE" = "<AppDir>\\UC2.exe"
+            "StartInvokeArgument" = ""
+            "IncludeAll" = "F"
+                "WebLibraryCollection"
+                {
+                    "WebLibraries"
+                    {
+                        "ADODLL"
+                        {
+                        "SectionName" = "ADODLL"
+                        "Setting" = "F"
+                        }
+                        "Microsoft Windows Foundation Classes for Java"
+                        {
+                        "SectionName" = "Microsoft Windows Foundation Classes for Java"
+                        "Setting" = "F"
+                        }
+                        "VMINST"
+                        {
+                        "SectionName" = "VMINST"
+                        "Setting" = "F"
+                        }
+                    }
+                }
+                "EXEsToRun"
+                {
+                }
+            "SPCFilename" = ""
+            "SigningEnabled" = "T"
+            "SelectCertificate" = "F"
+            "KeyName" = ""
+            "TimeserverURL" = "http://timestamp.verisign.com/scripts/timstamp.dll"
+                "RemoteComponents"
+                {
+                }
+            "RemoteServer" = ""
+            "PromptAlways" = "F"
+            "SetupFileProperties" = "0"
+                "SystemFiles"
+                {
+                }
+            }
+        }
+    }
+    "Release"
+    {
+    "DisplayName" = "Release"
+    "IsDebugOnly" = "F"
+    "IsReleaseOnly" = "T"
+        "EngineSpecificProperties"
+        {
+            "{61F73E15-FC82-11D0-A4B8-006097C9933C}"
+            {
+            "OutputFilename" = "UC2Setup.EXE"
+            "AppName" = "UniChat 2 English"
+            "InstallDirName" = "UniChat2"
+            "CreateInProgramFiles" = "T"
+            "CreateInStartMenu" = "T"
+            "StartName" = "UniChat 2"
+            "StartInvokeEXE" = "<AppDir>\\UC2.exe"
+            "StartInvokeArgument" = ""
+            "IncludeAll" = "F"
+                "WebLibraryCollection"
+                {
+                    "WebLibraries"
+                    {
+                        "ADODLL"
+                        {
+                        "SectionName" = "ADODLL"
+                        "Setting" = "F"
+                        }
+                        "Microsoft Windows Foundation Classes for Java"
+                        {
+                        "SectionName" = "Microsoft Windows Foundation Classes for Java"
+                        "Setting" = "F"
+                        }
+                        "VMINST"
+                        {
+                        "SectionName" = "VMINST"
+                        "Setting" = "F"
+                        }
+                    }
+                }
+                "EXEsToRun"
+                {
+                }
+            "SPCFilename" = ""
+            "SigningEnabled" = "T"
+            "SelectCertificate" = "F"
+            "KeyName" = ""
+            "TimeserverURL" = "http://timestamp.verisign.com/scripts/timstamp.dll"
+                "RemoteComponents"
+                {
+                }
+            "RemoteServer" = ""
+            "PromptAlways" = "F"
+            "SetupFileProperties" = "0"
+                "SystemFiles"
+                {
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1037 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\UC2.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\UC2.ico"
+IDR_UC2TYPE             ICON    DISCARDABLE     "res\\UC2Doc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Con&nect"
+    BEGIN
+        MENUITEM "Up&date",                     ID_CONNECT_SYNC
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Cut\tCtrl+C",                ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Notepad...\tCtrl+N",         ID_EDIT_NOTEPAD
+    END
+    POPUP "&Shopping"
+    BEGIN
+        MENUITEM "Members &List",               IDC_BTN_CREATE
+        MENUITEM SEPARATOR
+        MENUITEM "Shopping &Cart",              IDC_BTN_ROOM
+        MENUITEM "&Payment Info",               IDC_BTN_MEMBER
+        MENUITEM SEPARATOR
+        MENUITEM "&Sound",                      IDC_BTN_SOUND
+        MENUITEM "E&xit",                       IDC_BTN_QUIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&History Panel",              IDC_BTN_HISTORY
+        MENUITEM "Demo - P&DA",                 ID_VIEW_PDA
+        MENUITEM "Demo - Music &Titles",        ID_VIEW_PDA_MUSIC
+        MENUITEM "Demo - Titani&c",             ID_VIEW_TITANIC
+        MENUITEM "Demo - &Map",                 ID_VIEW_MAP
+        MENUITEM "Demo - &Instant Messaging",   ID_VIEW_IM
+        MENUITEM SEPARATOR
+        MENUITEM "&Adjust Window",              ID_VIEW_ADJUST_WINDOW
+        MENUITEM "&Pause Animation",            ID_VIEW_PAUSE
+        MENUITEM SEPARATOR
+        MENUITEM "Limit Characters in a Bubble...", ID_VIEW_BUBBLE_TEXTLIMIT
+        MENUITEM "Bubble Display Seconds...",   ID_VIEW_BUBBLE_TIME
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About WoW...",               ID_APP_ABOUT
+        MENUITEM "QuarterView &Home Page",      ID_HELP_HOMEPAGE
+    END
+    POPUP "&Demo", HELP
+    BEGIN
+        MENUITEM "WoW Demo",                    ID_VIEW_DEMO
+    END
+END
+
+IDR_MENU_ACTOR MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "",                            ID_ACTOR_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "Forward\tCtrl+W",             ID_ACTOR_MOVE_F
+        MENUITEM "Backward\tCtrl+A",            ID_ACTOR_MOVE_B
+        MENUITEM "Turn Left\tCtrl+Q",           ID_ACTOR_TURN_L
+        MENUITEM "Turn Right\tCtrl+E",          ID_ACTOR_TURN_R
+        MENUITEM SEPARATOR
+        MENUITEM "Laugh\tCtrl+1",               ID_ACTOR_ACTION_0
+        MENUITEM "Mad\tCtrl+2",                 ID_ACTOR_ACTION_1
+        MENUITEM "Hello\tCtrl+3",               ID_ACTOR_ACTION_2
+        MENUITEM "Cry\tCtrl+4",                 ID_ACTOR_ACTION_3
+        MENUITEM "Scratch\tCtrl+5",             ID_ACTOR_ACTION_4
+        MENUITEM "Pick Up\tCtrl+6",             ID_ACTOR_ACTION_5
+        MENUITEM "Special\tCtrl+7",             ID_ACTOR_ACTION_6
+        MENUITEM "Punch\tCtrl+F",               ID_ACTOR_ACTION_7
+        MENUITEM SEPARATOR
+        MENUITEM "Standing\tCtrl+0",            ID_ACTOR_STATE_0
+        MENUITEM "Morph\tCtrl+M",               ID_ACTOR_STATE_1
+        MENUITEM "Doze\tCtrl+D",                ID_ACTOR_STATE_2
+        MENUITEM SEPARATOR
+        MENUITEM "Voice",                       ID_ACTOR_VOICE
+    END
+END
+
+IDR_MENU_ACTOR_OTHER MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "",                            ID_ACTOR_PROP
+        MENUITEM SEPARATOR
+        MENUITEM "Voice",                       ID_ACTOR_VOICE
+        MENUITEM "Whisper to...",               ID_WHISPER
+        MENUITEM "Ignore",                      ID_IGNORE
+        MENUITEM "Kick-Out...",                 ID_KICKOUT
+        MENUITEM "Make Host",                   ID_MAKEHOST
+        MENUITEM SEPARATOR
+        MENUITEM "Home Page",                   ID_ACTOR_HYPERLINK
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "0",            ID_ACTOR_STATE_0,       VIRTKEY, CONTROL, NOINVERT
+    "1",            ID_ACTOR_ACTION_0,      VIRTKEY, CONTROL, NOINVERT
+    "2",            ID_ACTOR_ACTION_1,      VIRTKEY, CONTROL, NOINVERT
+    "3",            ID_ACTOR_ACTION_2,      VIRTKEY, CONTROL, NOINVERT
+    "4",            ID_ACTOR_ACTION_3,      VIRTKEY, CONTROL, NOINVERT
+    "5",            ID_ACTOR_ACTION_4,      VIRTKEY, CONTROL, NOINVERT
+    "6",            ID_ACTOR_ACTION_5,      VIRTKEY, CONTROL, NOINVERT
+    "7",            ID_ACTOR_ACTION_6,      VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_ACTOR_MOVE_B,        VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_ACTOR_STATE_2,       VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_ACTOR_TURN_R,        VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_ACTOR_ACTION_7,      VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_ACTOR_STATE_1,       VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_ACTOR_TURN_L,        VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_DOWN,        ID_ACTOR_MOVE_B,        VIRTKEY, CONTROL, NOINVERT
+    VK_F1,          ID_HELP,                VIRTKEY, NOINVERT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        ID_ACTOR_TURN_L,        VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_ACTOR_TURN_R,        VIRTKEY, CONTROL, NOINVERT
+    VK_UP,          ID_ACTOR_MOVE_F,        VIRTKEY, CONTROL, NOINVERT
+    "W",            ID_ACTOR_MOVE_F,        VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+CG_IDD_CONTROLPANEL DIALOG DISCARDABLE  0, 0, 373, 36
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_BTN_CREATE,"Button",BS_OWNERDRAW,227,10,12,13
+    CONTROL         "",IDC_BTN_ROOM,"Button",BS_OWNERDRAW,245,10,12,13
+    CONTROL         "",IDC_BTN_MEMBER,"Button",BS_OWNERDRAW,261,10,12,13
+    CONTROL         "",IDC_BTN_SOUND,"Button",BS_OWNERDRAW,279,10,12,13
+    CONTROL         "",IDC_BTN_HISTORY,"Button",BS_OWNERDRAW,295,10,12,13
+    CONTROL         "",IDC_BTN_QUIT,"Button",BS_OWNERDRAW,314,10,12,13
+    EDITTEXT        IDC_EDIT_SEND,7,11,167,13,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | WS_VSCROLL
+END
+
+IDD_DIALOG_LOGIN DIALOG DISCARDABLE  0, 0, 187, 125
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         "",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,124,105,50,14
+    CONTROL         "",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,2,104,50,
+                    14
+    EDITTEXT        IDC_EDIT_NICKNAME,47,23,68,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,48,40,68,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    COMBOBOX        IDC_CB_HOST,24,5,118,12,CBS_DROPDOWN | WS_VSCROLL
+    CTEXT           "",IDC_ST_MESSAGE,38,85,105,10,NOT WS_GROUP
+    CTEXT           "",IDC_ST_SECONDS,75,106,26,11,NOT WS_GROUP
+END
+
+IDD_CLOSE DIALOG DISCARDABLE  0, 0, 187, 99
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,122,71,50,
+                    14
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,17,
+                    72,50,14
+    CTEXT           "",IDC_ST_MESSAGE,29,17,107,12
+    CTEXT           "",IDC_ST_TIME_REPORT,35,44,107,9,NOT WS_GROUP
+END
+
+CG_IDD_HISTORYPANEL DIALOG DISCARDABLE  0, 0, 97, 237
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_HISTORY,3,10,91,223,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+END
+
+IDD_PP_ACTOR DIALOG DISCARDABLE  0, 0, 227, 168
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "IDENTITY"
+FONT 10, "System"
+BEGIN
+    LISTBOX         IDC_LB_ACTORS,3,56,58,109,WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_CHAT_ID,109,12,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_UNITEL_ID,109,27,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,109,41,59,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_HOMEPAGE,68,66,153,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO_SEX,196,14,22,42,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT_AGE,196,30,22,12,ES_AUTOHSCROLL
+    CONTROL         "Spin2",IDC_SPIN_AGE,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,210,30,8,
+                    13
+    EDITTEXT        IDC_EDIT_PROFILE,68,92,153,69,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "IDENTIFICATION",IDC_STATIC,64,2,160,163,BS_LEFT
+    LTEXT           "Sex",IDC_STATIC,177,16,17,9
+    LTEXT           "Age",IDC_STATIC,177,32,17,9
+    LTEXT           "Real Name",IDC_STATIC,68,42,37,9
+    LTEXT           "PERSONAL NOTE",IDC_STATIC,68,82,89,9
+    GROUPBOX        "",IDC_STATIC,172,7,49,38
+    LTEXT           "Chat ID",IDC_STATIC,68,15,26,9
+    LTEXT           "E-mail",IDC_STATIC,68,29,39,9
+    LTEXT           "Home Page",IDC_STATIC,68,56,52,9
+    SCROLLBAR       IDC_SB_ACTOR,3,40,57,8
+    RTEXT           "",IDC_ST_VERSION,172,53,49,11,SS_SUNKEN
+END
+
+IDD_PP_CHANNEL DIALOG DISCARDABLE  0, 0, 227, 168
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Channels List"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST_CHANNEL,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,3,18,221,121
+    PUSHBUTTON      "All Members List",IDC_BTN_MEMBER,3,156,112,11
+    PUSHBUTTON      "Refresh",IDC_BTN_RENEW,117,156,107,11
+    CONTROL         "",IDC_STATIC_MESSAGE,"Static",SS_LEFTNOWORDWRAP | 
+                    SS_SUNKEN,3,4,167,11
+    RTEXT           "",IDC_STATIC_CHANNEL_COUNT,171,3,53,13,SS_SUNKEN | 
+                    WS_BORDER | NOT WS_GROUP
+    PUSHBUTTON      "",IDC_BTN_MUD,62,141,162,13
+    CONTROL         "",IDC_ST_STAGEID,"Static",SS_LEFTNOWORDWRAP | SS_SUNKEN | 
+                    WS_GROUP,3,142,57,12
+END
+
+IDD_PP_CREATE_CHANNEL DIALOG DISCARDABLE  0, 0, 227, 168
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Create a New Channel"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_CHANNEL_NAME,15,9,200,12,ES_AUTOHSCROLL
+    LISTBOX         IDC_LB_BACKGROUND,14,46,200,113,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Channel Title",IDC_STATIC,10,0,210,36
+    GROUPBOX        "Background Stage",IDC_STATIC,9,37,211,126
+    CONTROL         "Public",IDC_RADIO_PUBLIC,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,15,24,36,10
+    CONTROL         "Private",IDC_RADIO_PRIVATE,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,57,23,43,11
+    EDITTEXT        IDC_EDIT_PASSWORD,162,22,53,12,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    RTEXT           "Password",IDC_STATIC,115,24,42,10
+END
+
+IDD_INPUT_PASSWORD DIALOG DISCARDABLE  0, 0, 74, 28
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Password"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_PASSWORD,2,4,69,12,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,2,18,34,8
+    PUSHBUTTON      "Cancel",IDCANCEL,38,18,33,8
+END
+
+IDD_DIALOG_WHISPER DIALOG DISCARDABLE  0, 0, 242, 29
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Message to Send"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_TEXT,7,13,184,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,196,2,39,9
+    PUSHBUTTON      "Cancel",IDCANCEL,196,14,39,9
+    LTEXT           "",IDC_STATIC_TO,7,2,184,9,SS_SUNKEN
+END
+
+IDD_DLG_MEMBER DIALOG DISCARDABLE  0, 0, 164, 187
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Members List"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,84,170,37,14
+    PUSHBUTTON      "Cancel",IDCANCEL,124,170,37,14
+    CONTROL         "List1",IDC_LIST_MEMBER,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,3,13,158,143
+    LTEXT           "",IDC_STATIC_MESSAGE,3,2,126,10,SS_SUNKEN | NOT 
+                    WS_GROUP
+    PUSHBUTTON      "Refresh",IDC_BTN_RENEW,3,158,158,10
+    RTEXT           "",IDC_STATIC_MEMBER_COUNT,129,2,32,10,SS_SUNKEN | 
+                    WS_BORDER
+    PUSHBUTTON      "Invite",IDC_BTN_INVITE,3,170,39,14
+END
+
+IDD_PP_MEMBER1 DIALOG DISCARDABLE  0, 0, 146, 69
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Member Info"
+FONT 10, "???"
+BEGIN
+    LTEXT           "Chat ID",IDC_STATIC,4,6,39,8,NOT WS_GROUP
+    LTEXT           "Real Name",IDC_STATIC,4,23,39,9,NOT WS_GROUP
+    LTEXT           "",IDC_STATIC_NICK,45,5,97,12,SS_SUNKEN | NOT WS_GROUP | 
+                    WS_TABSTOP
+    LTEXT           "",IDC_STATIC_REALNAME,45,21,97,12,SS_SUNKEN | NOT 
+                    WS_GROUP | WS_TABSTOP
+    LTEXT           "USER ID",IDC_STATIC,4,38,41,8
+    LTEXT           "",IDC_STATIC_UNITEL_ID,45,36,57,12,SS_SUNKEN
+    LTEXT           "",IDC_STATIC_SEXAGE,104,36,38,12,SS_SUNKEN
+    LTEXT           "CLIENT VERSION",IDC_STATIC,4,55,72,10
+    LTEXT           "",IDC_STATIC_VERSION,104,52,38,12,SS_SUNKEN
+END
+
+IDD_PP_MEMBER2 DIALOG DISCARDABLE  0, 0, 146, 68
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Profile"
+FONT 10, "???"
+BEGIN
+    EDITTEXT        IDC_EDIT_PROFILE,7,2,132,64,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_VSCROLL | WS_HSCROLL | NOT WS_TABSTOP
+END
+
+IDD_PROGRESS_DIALOG DIALOGEX 0, 0, 231, 244
+STYLE WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Cancel",IDCANCEL,"Button",BS_OWNERDRAW | WS_TABSTOP,21,
+                    223,50,14
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,165,223,50,
+                    14
+    EDITTEXT        IDC_EDIT_MSG,7,27,217,141,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "",IDC_DISPLAY,43,211,143,17,SS_NOTIFY
+    LTEXT           "",IDC_PROGRESS,7,177,217,20
+    CONTROL         "Progress2",IDC_PROGRESSBAR,"msctls_progress32",
+                    WS_BORDER,7,204,217,7
+END
+
+IDD_INPUT_INT DIALOG DISCARDABLE  0, 0, 82, 39
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_EDIT_INT,2,3,78,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,2,29,39,9
+    PUSHBUTTON      "Cancel",IDCANCEL,42,29,38,9
+    PUSHBUTTON      "Default",IDC_BTN_DEFAULT,2,17,78,11
+END
+
+IDD_PP_PAYMENT DIALOG DISCARDABLE  0, 0, 227, 168
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PAYMENT INFO"
+FONT 10, "System"
+BEGIN
+    COMBOBOX        IDC_COMBO1,96,8,58,42,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,51,20,103,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CARDNUM,51,32,103,11,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_EXPDATE,168,19,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,52,55,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,162,55,57,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,52,66,167,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT7,52,77,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,161,77,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT8,52,88,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,161,88,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT9,52,98,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,161,98,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,52,121,167,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,52,132,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,161,132,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,52,143,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,161,143,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,52,153,58,10,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,161,153,58,10,ES_AUTOHSCROLL
+    GROUPBOX        "PAYMENT INFO",IDC_STATIC,2,0,221,45
+    GROUPBOX        "BILLING INFO",IDC_STATIC,2,45,221,66
+    GROUPBOX        "SHIPPING INFO",IDC_STATIC,2,112,221,54
+    LTEXT           "CREDIT CARD TYPE",IDC_STATIC,5,9,86,10
+    LTEXT           "NAME",IDC_STATIC,6,21,38,10
+    LTEXT           "NUMBER",IDC_STATIC,6,34,39,10
+    GROUPBOX        "EXP. DATE",IDC_STATIC,165,7,55,29
+    LTEXT           "FIRST NAME",IDC_STATIC,6,56,45,8
+    LTEXT           "ADDRESS",IDC_STATIC,6,67,43,8
+    LTEXT           "CITY",IDC_STATIC,6,77,39,8
+    LTEXT           "ZIP",IDC_STATIC,6,87,29,8
+    LTEXT           "E-MAIL",IDC_STATIC,6,97,37,8
+    LTEXT           "LAST NAME",IDC_STATIC,117,57,42,8
+    LTEXT           "STATE",IDC_STATIC,117,77,39,8
+    LTEXT           "COUNTRY",IDC_STATIC,117,87,38,8
+    LTEXT           "PHONE #",IDC_STATIC,117,98,39,8
+    LTEXT           "ADDRESS",IDC_STATIC,6,122,43,8
+    LTEXT           "CITY",IDC_STATIC,6,132,39,8
+    LTEXT           "ZIP",IDC_STATIC,6,142,29,8
+    LTEXT           "E-MAIL",IDC_STATIC,6,152,37,8
+    LTEXT           "STATE",IDC_STATIC,117,132,39,8
+    LTEXT           "COUNTRY",IDC_STATIC,117,142,38,8
+    LTEXT           "PHONE #",IDC_STATIC,117,153,39,8
+END
+
+IDD_PP_CART DIALOG DISCARDABLE  0, 0, 227, 168
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SHOPPHING CART"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_CART,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,10,11,207,147
+    GROUPBOX        "SHOPPING CART",IDC_STATIC,5,1,219,163
+END
+
+IDD_DLG_PDA DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE WS_POPUP
+FONT 10, "System"
+BEGIN
+    CONTROL         "OK",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,126,79,50,
+                    14
+    CONTROL         "",IDC_PDA_BTN_MORE,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    20,79,42,14
+    CONTROL         "",IDC_PDA_BTN_BUY,"Button",BS_OWNERDRAW | WS_TABSTOP,72,
+                    78,42,14
+    CONTROL         "",IDC_PDA_BTN_AUTO,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    69,19,42,14
+    CONTROL         "",IDC_PDA_BTN_LEFT,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    15,21,42,14
+    CONTROL         "",IDC_PDA_BTN_RIGHT,"Button",BS_OWNERDRAW | WS_TABSTOP,
+                    120,19,42,14
+END
+
+IDD_DLG_ANI DIALOG DISCARDABLE  0, 0, 186, 94
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,1998,8,4
+ PRODUCTVERSION 2,0,5,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "...\0"
+            VALUE "CompanyName", "QuarterView.com\0"
+            VALUE "FileDescription", "WoW MFC Application\0"
+            VALUE "FileVersion", "2, 1998, 8, 4\0"
+            VALUE "InternalName", "WoW\0"
+            VALUE "LegalCopyright", "Copyright (C) 1998, Soomin Kim, Soonho Hong, Joongseok Choi\0"
+            VALUE "LegalTrademarks", "WoW\0"
+            VALUE "OriginalFilename", "WoW.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "WoW Application\0"
+            VALUE "ProductVersion", "2, 0, 5, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    CG_IDD_CONTROLPANEL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 35
+    END
+
+    IDD_CLOSE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 92
+    END
+
+    IDD_DIALOG_WHISPER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 235
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 25
+    END
+
+    IDD_DLG_MEMBER, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 161
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 184
+    END
+
+    IDD_PP_MEMBER1, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_PP_MEMBER2, DIALOG
+    BEGIN
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_PROGRESS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+
+    IDD_DLG_ANI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HGREP_UP            CURSOR  DISCARDABLE     "res\\harrow.cur"
+IDC_ARROW_LT            CURSOR  DISCARDABLE     "res\\arrow_lt.cur"
+IDC_ARROW_LB            CURSOR  DISCARDABLE     "res\\arrow_lb.cur"
+IDC_ARROW_RT            CURSOR  DISCARDABLE     "res\\arrow_rt.cur"
+IDC_ARROW_RB            CURSOR  DISCARDABLE     "res\\arrow_rb.cur"
+IDC_HGREP_DOWN          CURSOR  DISCARDABLE     "res\\hgrep_do.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PP_ACTOR DLGINIT
+BEGIN
+    IDC_COMBO_SEX, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO_SEX, 0x403, 2, 0
+0x0046, 
+    0
+END
+
+IDD_PP_PAYMENT DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x4956, 0x4153, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x414d, 0x5453, 0x5245, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4d41, 0x5845, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_IL_CHANNEL          BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_IL_MEMBER           BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    CG_IDD_CONTROLPANEL     "Control Panel\nControl Panel"
+    CG_ID_VIEW_CONTROLPANEL "Show or hide ControlPanel\nToggle ControlPanel"
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+    IDS_CLOSE_TEXT          "\nClosing WoW... Press ENTER\n\n(C) QuarterVew.com, 1998"
+    IDS_JOIN_CHANNEL_TITLE  "WoW"
+    IDS_TIME_REPORT         "Use Time: "
+    IDS_ABOUT_TEXT          "WoW"
+    IDS_ERROR_TIMER         "Error: System timer is not available!"
+    IDS_ERROR_BROWSER       "Error: Could not launch Web Browser! - "
+    IDS_UNICHAT_HOMEURL     "http://www.sds.samsung.co.kr/unichat/"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_HISTORY_PANEL       "History Panel"
+    CG_ID_VIEW_HISTORYPANEL "Show or hide HistoryPanel\nToggle HistoryPanel"
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+    IDS_DATA_TRANSMISSION_DONE "End of data transmission."
+    IDS_TRANSFER_MEMBER_CHANNEL "Transferring members info in the channel"
+    IDS_TRANSFER_MEMBER_ALL_CHANNEL "Transferring all members info"
+    ID_INDICATOR_DATE       "Date"
+    ID_INDICATOR_TIME       "Time"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "WoW\n\nWoW\n\n\nWoW.Document\nWow Document"
+    IDS_QUERY_LINE_BUSY     "BUSY - Still receiving other data..."
+    IDS_INVITE_SELECT_MEMBER "You must first select the member to invite"
+    IDS_INVITE_OPEN_CHANNEL "You must open your channel before inviting others"
+    IDS_INVITE_ERROR_MYSELF "You cannot invite yourself"
+    IDS_INVITE_OK           "Invited <%1>"
+    IDS_INVITE_FAIL         "Invitation failed!"
+    IDS_JOINED_CHANNEL      "[%1] joined."
+    IDS_KICKOFF_REASON      "(Kick-out) %s kicked out %s!\r\n(Reason) %s"
+    IDS_MEMBER_ENTRY        "<%1> entered"
+    IDS_MEMBER_EXIT         "<%1> out"
+    IDS_INVITATION          "<%1> is inviting you to the channel (%2)."
+    IDS_PRIVATE_MESSAGE     "Private Message: %1"
+    IDS_SELECT_CHANNEL      "Select the channel"
+    IDS_FILL_CHANNEL_TITLE  "Fill in the channel title"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "WoW from QuarterView"
+    AFX_IDS_IDLEMESSAGE     "For Help, press F1"
+    AFX_IDS_HELPMODEMESSAGE "Select an object on which to get Help"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open script\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the conversations\nSave"
+    ID_FILE_SAVE_AS         "Save the conversations with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "About WoW\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+    ID_HELP_INDEX           "Opens Help\nHelp Topics"
+    ID_HELP_FINDER          "List Help topics\nHelp Topics"
+    ID_HELP_USING           "Display instructions about how to use help\nHelp"
+    ID_CONTEXT_HELP         "Display help for clicked on buttons, menus and windows\nHelp"
+    ID_HELP                 "Display help for current task or command\nHelp"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_ADJUST_WINDOW   "Adjust Window\nAdjust Window"
+    ID_VIEW_PAUSE           "Pause Animation\nPause"
+    ID_ACTOR_VOICE          "Voice\nVoice"
+    ID_ACTOR_MOVE_F         "Move Forward\nMove Forward"
+    ID_ACTOR_MOVE_B         "Move Backward\nMove Backward"
+    ID_ACTOR_TURN_L         "Turn Left\nTurn Left"
+    ID_ACTOR_TURN_R         "Turn Right\nTurn Right"
+    ID_ACTOR_STATE_0        "Stand\nStand"
+    ID_ACTOR_STATE_1        "Morph\nMorph"
+    ID_ACTOR_STATE_2        "Doze\nDoze"
+    IDS_TURNING_OFF_DEMO    "Closing Demo Mode.\n\nPlease wait a second and then press Quit button again."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_QUERY_NO_MATCH      "No matches for query"
+    IDS_CONNECT_LAN         "LAN environment"
+    IDS_CONNECT_MODEM       "via UNITEL Internet service"
+    IDS_WELCOME_TO_LOBBY    "<%1> entered into the lobby"
+    IDC_EDIT_NICKNAME       "WoW ID(English or Numeric)"
+    IDC_EDIT_PASSWORD       "WoW Password"
+    IDS_CANCELED_CONNECTION "Canceled connection"
+    IDS_LOGIN_BEGIN         "Press 'NO' button to see WoW Demo"
+    IDS_LOGIN_CONNECTING    "Connecting to the WoW server."
+    IDC_EDIT_SEND           "Send Message\nSend Message"
+    IDC_ST_MESSAGE          "Message"
+    IDS_CONNECTING_SERVER   "1. Connecting to the chat server..."
+    IDC_EDIT_HISTORY        "History"
+    IDS_LOGGING_ON_SERVER   "2. Logging on to the chat server..."
+    IDS_TRYING_BACKUP_ID    "3. Retrying with the backup ID..."
+    IDS_CONNECTION_FAILED   "Error: Connection failed! Try again."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_BTN_CREATE          "Members List\nMembers List"
+    IDC_BTN_ROOM            "Shopping Cart\nShopping Cart"
+    IDC_BTN_MEMBER          "Payment Info\nPayment Info"
+    IDC_BTN_SOUND           "Sound On/Off\nSound On/Off"
+    IDC_BTN_HISTORY         "History Panel\nHistory Panel"
+    IDC_BTN_QUIT            "Exit Room\nExit Room"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ACTOR_ACTION_0       "Smile\nSmile"
+    ID_ACTOR_ACTION_1       "Mad\nMad"
+    ID_ACTOR_ACTION_2       "Hello\nHello"
+    ID_ACTOR_ACTION_3       "Cry\nCry"
+    ID_ACTOR_ACTION_4       "Scratch\nScratch"
+    ID_ACTOR_ACTION_5       "Pick up\nPick up"
+    ID_ACTOR_ACTION_6       "Special\nSpecial"
+    ID_ACTOR_ACTION_7       "Punch\nPunch"
+    ID_ACTOR_ACTION_8       "Reserved1\nReserved1"
+    ID_ACTOR_ACTION_9       "Reserved2\nReserved2"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_NOTEPAD         "Edit in Notepad\nEdit in Notepad"
+    ID_HELP_HOMEPAGE        "QuarterView Home Page\nQuarterViewl Home Page"
+    ID_VIEW_DEMO            "WoW Demo\nWow Demo"
+    ID_ACTOR_HYPERLINK      "Home Page\nHome Page"
+    ID_CONNECT_SYNC         "Download and update data files\ndownload"
+    ID_VIEW_TEXT_LIMIT      "Limit Text in a Bubble\nLimit Text in a Bubble"
+    ID_VIEW_BUBBLE_TIME     "Bubble Display Seconds\nBubble Display Seconds"
+    ID_VIEW_BUBBLE_TEXTLIMIT "Bubble Text Limit\nBubble Text Limit"
+    ID_VIEW_PDA             "PDA\nPDA"
+    ID_VIEW_MAP             "Map\nMap"
+    ID_VIEW_IM              "Instant Messaging\nInstant Messaging"
+    ID_VIEW_PDA_MUSIC       "Music Titles\nMusic Titles"
+    ID_VIEW_TITANIC         "Titanic\nTitanic"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_NO_CHANNEL_OPENED   "No channel is opened yet."
+    IDS_CLICK_CHANNEL_TITLE "Click the title!"
+    IDS_RECEIVING_CHANNELS_LIST "Receiving channels list..."
+    IDS_INVALID_CHANNEL_NAME "Invalid channel name (%1): Not a WoW format!"
+    IDS_LEAVE_THIS_CHANNEL  "Leave this channel?"
+    IDS_CANNOT_JOIN_CHANNEL "You cannot join this channel."
+    IDS_INVALID_CHATID      "Invalid Chat ID. (English or Numeric)"
+    IDS_CONNECTION_TYPE_GLOBAL "Internet users without UNITEL"
+    IDS_CONNECTION_TYPE_LOCAL "Internet service via UNITEL"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ERROR_TIMEOUT       "Error: Time over!"
+    IDS_ERROR_NOT_WIN95     "Error: This Program is only for Windows 95 and NT."
+    IDS_ERROR_WRITE_REGISTRY "Error: Can't write registry data for WoW"
+    IDS_ENTER_PASSWORD      "Enter Password"
+    IDS_DEMO_1              "Cutie:Hello?"
+    IDS_DEMO_2              "tortoise:How are you doing? This is the new version of WoW!"
+    IDS_DEMO_3              "Mingming:Hi guys! I'm Mingming..."
+    IDS_DEMO_4              "tortoise:I can change my looking like an animal."
+    IDS_DEMO_5              "tortoise: You can see the whole history of the chat."
+    IDS_DEMO_6              "Cutie:Wow! It's wonderful!"
+    IDS_DEMO_7              "tortoise:This is another chat room. You can move into another channel continuously."
+    IDS_DEMO_8              "Uni:Hi! I'm Uni. UniChat is developed for the UNITEL, an online service by Samsung."
+    IDS_DEMO_9              "Dalgong: I'm Dalgong in UNITEL. UniChat is an Internet Animation Chatting Program."
+    IDS_DEMO_10             "Hana: UniChat is now serviced by the UNITEL in S.Korea."
+    IDS_DEMO_11             "Hana: The setup file is only 1.2 MB in size!"
+    IDS_DEMO_12             "Hana: UniChat is an ideal product for the Web advertisement!"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_DEMO_13             "tortoise:Clicking the adverting clip brings you to that link site in the Web Browser."
+    IDS_DEMO_14             "tortoise:Here we are in another place."
+    IDS_ACTOR_PROPSHT_CAPTION "Actor Info"
+    IDS_SELECT_STAGE        "Public Mode: Select background stage in the list"
+    IDS_MUD_MODE            "World MODE: %1"
+    IDS_EPILOGUE00          "Made by ..\n\nSoomin Kim(PL, Lead Programmer)\nSoonho Hong(Art Director)\nJoongseok Choi(Animator)\nJongchul Kim(Character Designer)"
+    IDS_EPILOGUE01          "Epilogue\n\nTurtle Soft Presents"
+    IDS_EPILOGUE02          "Epilogue"
+    IDS_EPILOGUE03          "Epilogue"
+    IDS_EPILOGUE04          "Epilogue"
+    IDS_PROGRESS_INIT_BIND  "State: Initializing connection..."
+    IDS_PROGRESS_PREPARE    "State: Connecting..."
+    IDS_PROGRESS_DOWNLOAD_FAIL "State: File download failure!"
+    IDS_PROGRESS_DOWNLOADED "State: File Download OK."
+    IDS_PROGRESS_ALL_FILES_DONE "Completed updating the files."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MAKEHOST             "Make Host\nMake Host"
+    ID_WHISPER              "Whisper to\nWhisper"
+    ID_IGNORE               "Ignore\nIgnore"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_KICKOUT              "Kick-Out\nKick-Out"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_CLOSE_ON_NEW_RIT    "\nMain data file (RIT file) has been changed.\n\nYou must restart the program. Do you want to quit now?"
+    IDS_CHANNEL_OUT         "\nYou're out of this channel.\n\nDo you want to quit now?"
+    IDS_RIT_NO_BEHAVIORS    "Update u2res000.rit - No behaviors found!"
+    IDS_RIT_NO_SPRITES      "Update u2res000.rit - No sprites found!"
+    IDS_RIT_NO_WAVES        "Update u2res000.rit - No waves found!"
+    IDS_RIT_NO_MIDIS        "Update u2res000.rit - No MIDIs found!"
+    IDS_RIT_NO_STAGES       "Update u2res000.rit - No Stage Names found!"
+    IDS_RIT_NO_SERVERIPS    "Update u2res000.rit - No Server IPs found!"
+    IDS_ENTER_BUBBLE_TEXT_LIMIT "Text Length in a Bubble"
+    IDS_ENTER_BUBBLE_TIME   "Bubble Display Seconds"
+    IDS_BTN_MUD             "WoW World (Continuous Stages)"
+    IDS_BTN_USER            "User-Created Channels"
+    IDS_HELP_SIMPLE         "Simple Help"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\UC2.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

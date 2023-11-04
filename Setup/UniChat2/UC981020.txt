@@ -1,0 +1,281 @@
+james:hmm. what happen to soon ho..
+<jokim> 퇴장
+cpharock:Can you save the history?
+james:okay
+cpharock:Edit/Notepad?
+cpharock:I lost them
+james:세이브했어.
+cpharock:전부 다 됐어?
+james:응.
+cpharock:노트패드로?
+james:응
+cpharock:메뉴에 있는
+<jokim> 참가
+cpharock:노트패트 띄운 상태에서
+james:응.
+cpharock: 계속 메뉴/노트패트 선택하면 텍스트가 그리로 전송된다
+cpharock:Where have you been Joseph
+jokim:soo min. what is the current unichat subscriber base?
+jokim:oh i couldn't get back to this area...
+james:that's great .
+<jokim> 퇴장
+cpharock:얘 또 어디갔어
+cpharock:subscriber base 멀 말하는거야
+james:사용자 수
+cpharock:음
+james:그러니까.. 최고 예상 사용자가 
+james:607백만쯤된다고 보나봐
+james:600만 에서 700만
+<jokim> 참가
+cpharock:글쎄
+jokim:also do you know peak concurrent usage?
+cpharock:This unichat's concurrent users are more than 100 people
+jokim:that's it... geez... that's very small...
+cpharock:Last saturday night I saw about 110 users
+james:I think that's not a problem. it is depending on the system destibution. right??
+cpharock:Yes
+jokim:ok but we need to support 500k users concurrently... like ICQ. they have supported something like over 550k users...
+james:I think that ICQ and our model is kind of differnet.
+cpharock:I don't mean technical concurrent users
+jokim:also my market research indicates that instant messaging and a buddy system is more popular than chat rooms...
+james:ICQ caase is that all the user are not actively use the computer resources.
+jokim:i think it would be cool to link buddy lists and instant messaging to this system... can you tell me what yo uthink soomin?
+jokim:that's why i was interested in the rendezvous protocol...
+cpharock:I absolutely agree to your point
+jokim:great.
+cpharock:I'll study about that
+jokim:i'll send you the links through email... you will use hotmail or enzo?
+cpharock:If they(MS) provide it as an SDK
+cpharock:I can make use of it
+jokim:i see...
+james:So, our model is likely total potal sites.
+cpharock:Just send it to hot mail
+jokim:one good thing is that icq and aol aren't supporting yet so that's an opportunity for us to eat at their market share.
+james:including email, messanger, and chat, ec
+cpharock:I didn't test enzo.net yet
+jokim:what do you think about the geographical limitations of this system?
+cpharock:No limitations at all
+jokim:i mean if we have a store and we also have 500k concurrent users obviously only 10 or so people can comfortably fit in a certain geographical space...
+cpharock:You mean for any chat room?
+jokim:do you want to solve that with a really HUGE world and try to scatter people through it? or do we have multiple worlds that are the same?
+jokim:uh.. no i was thinking more along the lines of the mall concept?
+cpharock:I underst00d
+james:well virtuall, also consider the language problem between 
+james:asia.
+cpharock:We can hold many spaces by copying or cloning
+james:especially china and japan
+jokim:ok. like multiple channels of the same spaces?
+cpharock:yes
+jokim:ok.
+cpharock:But they can not share real communication space
+jokim:i think we should also work on a directory system to find users... i think one possibility is to use a whois type of mechanism to do that...
+jokim:like for domain names but we take their code and turn it into a user directory...
+jokim:have you thought about directory services yet?
+james:directory service such as??
+jokim:looking up other users information... when online or offline.
+cpharock:It's like a buddy list
+james:you mean online login?
+james:yeah buddy list
+jokim:i think we should provide users with a unique id/alias and also give them some templated web pages and stuff...
+cpharock:I find some limitations in using MS Chat Server for that concept
+jokim:i see. we can build the directory stuff separately.
+james:Accutally, chat server itself can handle that part.. 
+jokim:i think i could do it myself pretty quickly...
+cpharock:By making DB in the server, we can overcome some problems
+james:I think, exchage server or user database can handle it isn't it?
+cpharock:Yes we should implement somethings separately
+james:What do you think about Sumin hyhg.
+cpharock:What?
+jokim:ok. i think i covered everything i want to talk about...
+james:to handling user base informations
+cpharock:James
+cpharock:You study the Exchange Server
+james:Think about if we assum that our potential user bases are more than 5 milions then it will be really huge databasse.
+james:right..
+james:I have to study about exchange server.
+jokim:for really large stuff i think we should have a custom solution or oracle...
+james:yeah.
+cpharock:Joseph, can you work on that?
+james:I think we have to incoporate sql, mail server chat server.
+cpharock:Some technical stuffs
+jokim:a can work on a custom solution but oracle stuff i'm not familiar with...
+cpharock:OK
+jokim:i was thinking of stealing the rwhois code and using it for our own application.
+james:What kind of technical research we need to find out the custom solution that joseph say??
+jokim:so we would be running rwhois but applied to user content..
+cpharock:I don't know if it can be applicable to our system
+<indy> 참가
+jokim:i think so because you can define your own schemas and stuff...
+indy:sorry i am late
+james:welcome to meeting sunomail hyung
+james:we have to beat indo..huhuhu
+<indy> 퇴장
+<indy> 참가
+cpharock:What abou the Visa problem James
+jokim:i think about the visa that's why we should try and get the korean gov't loan.
+jokim:so you can all come on an investor visa.
+<indy> 퇴장
+james:hmmm/just waiting for soon ho hyung
+james:Sumin can you check your e-mail on geocities site??
+cpharock:I got a call
+<indy> 참가
+james:just check out the mail basic infomation will be there.
+<indy> 퇴장
+cpharock:Soonho has some problems with his PC
+jokim:ok.
+cpharock:Do you know
+james:???
+cpharock:other source for government loan in Korea
+cpharock:not Ahn's
+james:형 순호형이 멜로 썼는데 itg를 통한 론을 받지 않겠다고햇거든
+cpharock:긍까
+cpharock:다른데 아는데 있어?
+james:그래서 다른 루트를 통해서 알아보고있는데 우리가 직접 론을 받을수도 있을거같아.
+cpharock:OK
+james:개인적으로 아주친한 분이 도와주신다고했거든
+james:어제도 통화했잖아.
+james:그래서 지금 알아보는곳은 기술신용보증기금
+james:일신창투같은데서도 알아볼려구해.
+cpharock:개발잘 여기서 구해서 미국에 들어가는게 늦어지게되면
+james:참 비자이야길해야겠구나.
+james:참 비자이야길해야겠구나.
+cpharock:어떨른지 조셉한테 물어볼래
+james:알아봤는데 
+cpharock:개발잘 여기서 구해서 미국에 들어가는게 늦어지게되면
+james:조셉은 론이 더욱 좋다고하고.
+james:비자문제가 연관이 되면 
+james:그게 필요하게 되.
+james:본격적으로 비자이야길 해야겠다.
+james:지금 비자가 두가지 옵션이있어
+cpharock:OK continue
+james:첫번쩨가 H1 두번째가 E2
+cpharock:E2 is for investers?
+james:첫번째는 워킹 비자구 두번째는 인베스먼트 비자.
+james:응
+james:한글로해..
+cpharock:대화내용 계속 세이브하니?
+james:응.
+james:다른분들도 한글이 더욱더 편할테니까.
+cpharock:알았오
+james:두가지가 있는데
+james:두가지다 장단점이 있어
+james:h1같은경우는 장점이라면 우선 비용이 저렴하고 또 한국에서 직접 investment을 할필요가 없으니가
+james:그렇지만 단점이 그것은 미국에서 한국에 있는 기술자들을 고용하는 식으로니까
+cpharock:응
+james:회사지분에 같이 참여하는 문제가 좀 복잡해지는 단점도 있지
+james:그리고 지금 여기서 수속할려면 3-4정도 기다려야 한다고 그러더라구
+<indy> 참가
+cpharock:3-4개월?
+james:ㄱ응
+james:지금 많이 늦어졌데...
+james:가장 기본적인 정보는 그것이구 
+cpharock:회사 지분참여가 안돼는 거야 H1으론,?
+james:참 그리고 사람당 $2000불정도 수수료 포함
+james:변칙적으론 하면되겠지만.
+james:고용비자니가.
+james:그문제를 직접만나서 알아봐야할거같아.
+cpharock:ok
+james:그리고  두번째가 인베스터 비자인데.
+james:우리한테 가장 적합한거야.
+james:한국에서 형들이 이쪽에 회사를 설립하고 인베스터 하기위해서
+cpharock:말해봐
+james:오는것이구 그것으로 인해서 비자를 받는거거든
+cpharock:음
+cpharock:그래서 한국쪽의 loan이 필요하다는 거구나
+james:이것도 장단점이있어.
+james:그치..
+james:장단점이 있어
+james:장점은 가장 큰것은 회사지분참여가 가장 용의하다는것이지
+cpharock:단점은 돈이 많이든다는 거?
+james:그리도 두번째로 여기서 기본적인 법인서립절차와 business plan이 끝나면 
+james:서류 프로세싱하는 타임이 2주에서 길어야 한달사이면 비자가 나오는거구
+<indy> 퇴장
+cpharock:투자의 주체가 우리 개발자일 수 있나?
+james:그리고  비자받는데 있어서 이쪽의 제정적인 사정을 크게 고려 안하는것도 있구
+james:왜냐면 h1의 경우 회사 제정상황을 아주 깊게 고려한다고 하더라구
+cpharock:음
+james:왜냐면 우리가 고용된 외국인들의 (형들)월급을 잘 줄수있느냐에 관련된일이어서
+james:왜냐면 우리가 고용된 외국인들의 (형들)월급을 잘 줄수있느냐에 관련된일이어서
+james:그렇지만 e2의 경우는 회사를 운영하는사람들이니까 그런점들은 없나봐
+james:그런 장정이 있구 
+james:장점이 있구 
+cpharock:그렇군
+james:단점으로는 한국에서 인베스터하는 분들의 지분이 51%이상이어야하는것
+james:근데 문제될게 없는게 세사람이상이니까..
+james:괜찮을거같구..
+james:근데 지금 걱정되는것은 순호형이 이민수속을 밟고있어서
+cpharock:그건 최초의 지분을 말하는 거지?
+james:그형이 지분문제야.
+james:응.그치.
+james:그러니까 
+james:그 지분참여는 현금투자와 직결된거거든.
+james:그러니까 어떠한 명목으로든지 한국에서 미국에 돈이 들어와야
+james:프로세싱이 가능한거지.
+james:그래서 E2비자를 받기위해서는 한국에서의 론이 필요할거야 
+cpharock:알았오
+james:기본적으로 그런 옵션이 있어.
+cpharock:근데 loan 해주는 것이 정부인데
+cpharock:loan 이니가 지분을 가져가는 것은 아니잖아
+james:근데 내가 알아본 바로는 우리들의 기술과 인력가지고 받을수 있을거라고 생각ㄱ해.
+jokim:soomin. why don't you like the itg guys? :-).
+cpharock:No, I don't dislike them
+james:그러니까  론이 필요한것은 e2비자를 받기우해서 미국으로 현금이 전송되어야..
+jokim:ok.
+james:하거든 그것때문에 우선 론을 받아서 금액은 형들이 여기에 투자하는 형태를 취하자는거지.
+cpharock:I heard about some bad things about they are contacting VC
+james:미국에서 그돈의 성격에 대해선 괜찮을거 같으니까.
+james:what about it???
+jokim:ok. i don't think we need to work with them.
+cpharock:그럼 한국내에도 법인을 세워야하겠군
+james:you mean itg??
+james:사실 법인을 꼭 세울 필요가 있을까하는 생각도 들어 
+james:미국에 법인을 세운다면 그것도 괜찮지 않을을까란 생각이 들거든.
+james:한번 정확하게 알아봐야 할문제지만.
+james:달러 벌어드리겠다는대ㅔ..
+cpharock:그래 너의 임무다
+james:마다할 이윤 없을거 같은데.
+james:그래 한국쪽 론은 내가 알아볼께..
+cpharock:그럼 아무데서나 loan을 받기만하면 되는 건가?
+cpharock:한국에서 미국에 투자하기 위해?
+james:윽
+james:문제당
+cpharock:꼭 정부일필요 없이?
+cpharock:머가
+james:근데 
+james:근데 지금 메모리가 리프레시 되어서
+james:근데 지금 메모리가 리프레시 되어서
+james:중간에 내가 한이야기가 짤렸어.
+cpharock:save가 안돼?
+james:되었는데 갑자기 스크린이 리프레시다 되엇당
+james:근데 괜찮아.
+james:조셉꺼로 세이브했어.
+james:후..
+james:그치 꼭 정부 론이 필요한게 아니구
+cpharock:후반부는 내꺼로도 세이브하니까 나중에 교환하자고
+james:다른 창투사에서 알아볼수있는 루트가 생길거야.
+james:그치.
+james:그래.
+james:그럼
+james:내가 특허전문변호사랑 커넥션을 만들어준다는분이..
+james:일신창투와 다른 몇곳의 창투사에 연결을 할수 있다고하니가.
+cpharock:hello
+james:흠.
+jokim:hi
+james:미안
+james:질문있어형??
+james:여기까지..
+james:흠.
+cpharock:여기 사무실 내서 개발하다 미국 가는 시점을 뒤로 하는 것은 어떻게 생각하는지 너와 조셉의 의견을 듣고 싶다
+cpharock:이건 여기서 엔지니어 1,2명을 더 구했을 경우 시나리오지만
+james:만약..
+james:우리가 한국에 서 론을 받는다면
+james:그리고 e2비자 프로세잉이 순조로울경우
+james:궂이 한국에 있을 필요가 있을까??
+cpharock:그렇게 비자문제가 빨리 결정되고 해결되면
+cpharock:갈 수 있는 사람부터라도 빨리 미국으로 가야지
+james:지금 계획으론 한 일이 잘풀리면 2주안에 
+james:기본적인 펀딩을 받을수 있을거같아.
+cpharock:그럼 좋겠다
+cpharock:한국에서 loan을 받으려면
+james:그리고 한국 쪽에서는 한 한달이나 한달반안에 해결될수 있을거 같아
+cpharock:문서도 왕창 만들어야되고 하지 않나?

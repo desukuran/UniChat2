@@ -1,0 +1,41 @@
+//*************************************************************
+//  File name: main.rc
+//
+//  Description: 
+//      Resources for the sample application
+//
+//  History:    Date       Author     Comment
+//               2/13/92   EMB        Created
+//
+//  Copyright (c) 1992 Microsoft Corporation. All rights reserved.
+//*************************************************************
+
+#include "global.h"
+
+MAINICON ICON "Main.ICO"
+
+MainMenu MENU
+BEGIN
+    POPUP        "&File"
+    BEGIN
+        MENUITEM "&Open...", IDM_OPEN
+        MENUITEM "&Copy 1...", IDM_COPY
+        MENUITEM "&Copy multiple...",IDM_MULTCOPY
+    END
+    POPUP        "&Help"
+    BEGIN
+        MENUITEM "&About LZFile...", IDM_ABOUT
+    END
+END
+
+AboutBox DIALOG 22, 17, 144, 75
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About LZFile"
+BEGIN
+    CTEXT "Microsoft Windows Developer Support"     -1, 0, 5, 144,  8
+    CTEXT "LZFILE Application"  -1,       0, 14, 144,  8
+    CTEXT "by: Emily Brooks"    -1,       0, 34, 144,  8
+    DEFPUSHBUTTON "OK"          IDOK,     53, 59,  32, 14, WS_GROUP
+END
+
+/*** EOF: main.rc ***/

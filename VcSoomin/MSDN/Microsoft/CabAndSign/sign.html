@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Signing a Program File</title>
+</head>
+
+<body>
+
+<h2>Signing a Program File</h2>
+
+Once you have a test cerficate, it is easy 
+to sign your CAB file. For information on
+creating a CAB file, see <a href=cab.html>Making
+Cabinets</a>. For information on creating a
+test certificate, see <a href=cert.html>Creating
+a Test Certificate</a>. For general information,
+see the <a href=readme.html>readme</a>.
+<p>
+
+To sign a program file using the Code Signing Wizard:
+
+<ol>
+<li>Run SIGNCODE.
+<pre>   C:\SIGN\SIGNCODE
+</pre>
+This assumes that you installed the Code Signing
+Kit in the C:\SIGN directory. If you have not installed 
+the Code Signing Kit, you can find it on the CD-ROM in 
+the \CAB&SIGN directory.<br>
+The Code Signing Wizard dialog box appears.
+<li>Click Next to advance to the next page.
+<li>In the first edit box, enter the name of the 
+    program file you want to sign.<br>
+    For this example, use FIRSTCAB.CAB. Use the 
+	Browse button to help you find this file.
+<li>In the second edit box, enter a name for this
+    program file. This name will appear on the 
+	certificate.
+<li>Click Next to advance to the next page.
+<li>In the first edit box, enter the name of the
+    SPC file. <br>
+	You created this file. For this example use
+	CERT.SPC. For information on creating a
+	test Software Publishing Certificate, see 
+	<a href=cert.html>Creating a Test Certificate</a>. <br>
+	Use the Browse button to help you find this file.
+<li>In the second edit box, enter the name of the
+    PVK file. <br>
+	You created this file. For this example use
+	MYKEY.PVK. For information on creating a
+	private key file, see <a href=cert.html>Creating
+	a Test Certificate</a>. <br>
+	Use the Browse button to help you find this file.
+<li>Click Next twice to advance to the last page.
+<li>Click Sign to sign the CAB file.
+</ul>
+
+<p>
+
+The class file has been put in a CAB file and
+digitally signed.  You are now ready to run 
+the <a href=javabeep.html>applet</a>.
+
+</BODY>
+</HTML>

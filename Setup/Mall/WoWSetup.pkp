@@ -1,0 +1,1292 @@
+"General"
+{
+    "Contents"
+    {
+    "PackagingEngine" = "{61F73E15-FC82-11D0-A4B8-006097C9933C}"
+    "ProjectName" = "WoWSetup"
+    "SccProjectName" = ""
+    "SccLocalPath" = ""
+    "SccAuxPath" = ""
+    "SccProvider" = ""
+    }
+}
+"Inputs"
+{
+    "F:{E0C68E81-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\yesss000.mid"
+    }
+    "F:{E0C68E82-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0010mall.sit"
+    }
+    "F:{E0C68E83-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0010smin.sit"
+    }
+    "F:{E0C68E84-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0020mall.sit"
+    }
+    "F:{E0C68E85-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0020smin.sit"
+    }
+    "F:{E0C68E86-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0030mall.sit"
+    }
+    "F:{E0C68E87-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0030smin.sit"
+    }
+    "F:{E0C68E88-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0040mall.sit"
+    }
+    "F:{E0C68E89-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0040smin.sit"
+    }
+    "F:{E0C68E8A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid01.wav"
+    }
+    "F:{E0C68E8B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid02.wav"
+    }
+    "F:{E0C68E8C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid03.wav"
+    }
+    "F:{E0C68E8D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid04.wav"
+    }
+    "F:{E0C68E8E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid05.wav"
+    }
+    "F:{E0C68E8F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid06.wav"
+    }
+    "F:{E0C68E90-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\01guid07.wav"
+    }
+    "F:{E0C68E91-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\02guid01.wav"
+    }
+    "F:{E0C68E92-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\02guid02.WAV"
+    }
+    "F:{E0C68E93-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\02guid03.WAV"
+    }
+    "F:{E0C68E94-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\03guid01.WAV"
+    }
+    "F:{E0C68E95-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\03guid02.WAV"
+    }
+    "F:{E0C68E96-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\04guid01.WAV"
+    }
+    "F:{E0C68E97-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\04guid02.WAV"
+    }
+    "F:{E0C68E98-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\04usr101.WAV"
+    }
+    "F:{E0C68E99-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\04usr102.WAV"
+    }
+    "F:{E0C68E9A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\04usr201.WAV"
+    }
+    "F:{E0C68E9B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\05guid01.WAV"
+    }
+    "F:{E0C68E9C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\05guid02.WAV"
+    }
+    "F:{E0C68E9D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\05guid03.WAV"
+    }
+    "F:{E0C68E9E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\05usr101.WAV"
+    }
+    "F:{E0C68E9F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\05usr301.WAV"
+    }
+    "F:{E0C68EA0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06kim_01.WAV"
+    }
+    "F:{E0C68EA1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06kim_02.WAV"
+    }
+    "F:{E0C68EA2-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06kim_03.WAV"
+    }
+    "F:{E0C68EA3-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06kim_04.WAV"
+    }
+    "F:{E0C68EA4-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06sgud01.WAV"
+    }
+    "F:{E0C68EA5-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06sgud02.WAV"
+    }
+    "F:{E0C68EA6-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06sgud03.WAV"
+    }
+    "F:{E0C68EA7-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06usr301.WAV"
+    }
+    "F:{E0C68EA8-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\06usr302.WAV"
+    }
+    "F:{E0C68EA9-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07kim_01.WAV"
+    }
+    "F:{E0C68EAA-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07kim_02.WAV"
+    }
+    "F:{E0C68EAB-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07kim_03.WAV"
+    }
+    "F:{E0C68EAC-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07Lee_01.WAV"
+    }
+    "F:{E0C68EAD-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07Lee_02.WAV"
+    }
+    "F:{E0C68EAE-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07Lee_03.WAV"
+    }
+    "F:{E0C68EAF-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07usr301.WAV"
+    }
+    "F:{E0C68EB0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\07usr401.WAV"
+    }
+    "F:{E0C68EB1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08Choi01.wav"
+    }
+    "F:{E0C68EB2-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08Choi02.wav"
+    }
+    "F:{E0C68EB3-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08guid01.WAV"
+    }
+    "F:{E0C68EB4-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08guid02.WAV"
+    }
+    "F:{E0C68EB5-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08guid03.WAV"
+    }
+    "F:{E0C68EB6-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08guid04.WAV"
+    }
+    "F:{E0C68EB7-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08guid05.WAV"
+    }
+    "F:{E0C68EB8-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08kim_01.WAV"
+    }
+    "F:{E0C68EB9-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08usr201.WAV"
+    }
+    "F:{E0C68EBA-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\08usr202.WAV"
+    }
+    "F:{E0C68EBB-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0Lguid01.WAV"
+    }
+    "F:{E0C68EBC-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0Lguid02.WAV"
+    }
+    "F:{E0C68EBD-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0Lusr101.wav"
+    }
+    "F:{E0C68EBE-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0Lusr102.WAV"
+    }
+    "F:{E0C68EBF-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0Lusr201.WAV"
+    }
+    "F:{E0C68EC0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0Lusr202.WAV"
+    }
+    "F:{E0C68EC1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525b.bmp"
+    }
+    "F:{E0C68EC2-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525bb.bmp"
+    }
+    "F:{E0C68EC3-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525g.bmp"
+    }
+    "F:{E0C68EC4-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525gb.bmp"
+    }
+    "F:{E0C68EC5-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525gi.bmp"
+    }
+    "F:{E0C68EC6-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525gib.bmp"
+    }
+    "F:{E0C68EC7-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525r.bmp"
+    }
+    "F:{E0C68EC8-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525rb.bmp"
+    }
+    "F:{E0C68EC9-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525ri.bmp"
+    }
+    "F:{E0C68ECA-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525rib.bmp"
+    }
+    "F:{E0C68ECB-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525w.bmp"
+    }
+    "F:{E0C68ECC-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525wb.bmp"
+    }
+    "F:{E0C68ECD-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525wi.bmp"
+    }
+    "F:{E0C68ECE-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\525wib.bmp"
+    }
+    "F:{E0C68ECF-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\A00.UDS"
+    }
+    "F:{E0C68ED0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ADVER001.bmp"
+    }
+    "F:{E0C68ED1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ADVER002.bmp"
+    }
+    "F:{E0C68ED2-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\adver010.bmp"
+    }
+    "F:{E0C68ED3-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\adver011.bmp"
+    }
+    "F:{E0C68ED4-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\adver012.bmp"
+    }
+    "F:{E0C68ED5-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\adver014.bmp"
+    }
+    "F:{E0C68ED6-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\Augan001.bmp"
+    }
+    "F:{E0C68ED7-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\Augan002.bmp"
+    }
+    "F:{E0C68ED8-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\Augan003.bmp"
+    }
+    "F:{E0C68ED9-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\AUGAN004.bmp"
+    }
+    "F:{E0C68EDA-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CA00.UDS"
+    }
+    "F:{E0C68EDB-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CAMERA.WAV"
+    }
+    "F:{E0C68EDC-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CD00.UDS"
+    }
+    "F:{E0C68EDD-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CG00.UDS"
+    }
+    "F:{E0C68EDE-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ChatSock.dll"
+    }
+    "F:{E0C68EDF-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CPARK009.bmp"
+    }
+    "F:{E0C68EE0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CPARK010.bmp"
+    }
+    "F:{E0C68EE1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CS00.UDS"
+    }
+    "F:{E0C68EE2-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CW00.UDS"
+    }
+    "F:{E0C68EE3-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\CW01.UDS"
+    }
+    "F:{E0C68EE4-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\DISPL001.bmp"
+    }
+    "F:{E0C68EE5-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\DISPL002.bmp"
+    }
+    "F:{E0C68EE6-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\DISPL003.bmp"
+    }
+    "F:{E0C68EE7-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\EMBLEM.bmp"
+    }
+    "F:{E0C68EE8-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\event000.mid"
+    }
+    "F:{E0C68EE9-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ001.bmp"
+    }
+    "F:{E0C68EEA-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ002.bmp"
+    }
+    "F:{E0C68EEB-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ003.bmp"
+    }
+    "F:{E0C68EEC-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ004.bmp"
+    }
+    "F:{E0C68EED-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ005.bmp"
+    }
+    "F:{E0C68EEE-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ006.bmp"
+    }
+    "F:{E0C68EEF-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ007.bmp"
+    }
+    "F:{E0C68EF0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ008.bmp"
+    }
+    "F:{E0C68EF1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ009.bmp"
+    }
+    "F:{E0C68EF2-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ010.bmp"
+    }
+    "F:{E0C68EF3-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ011.bmp"
+    }
+    "F:{E0C68EF4-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ012.bmp"
+    }
+    "F:{E0C68EF5-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ013.bmp"
+    }
+    "F:{E0C68EF6-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\frequ014.bmp"
+    }
+    "F:{E0C68EF7-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\fuget002.mid"
+    }
+    "F:{E0C68EF8-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\fuget003.mid"
+    }
+    "F:{E0C68EF9-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\fuget004.mid"
+    }
+    "F:{E0C68EFA-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\fuget006.mid"
+    }
+    "F:{E0C68EFB-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\fuget007.mid"
+    }
+    "F:{E0C68EFC-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\fuget009.mid"
+    }
+    "F:{E0C68EFD-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni001.bmp"
+    }
+    "F:{E0C68EFE-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni002.bmp"
+    }
+    "F:{E0C68EFF-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni003.bmp"
+    }
+    "F:{E0C68F00-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni004.bmp"
+    }
+    "F:{E0C68F01-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni005.bmp"
+    }
+    "F:{E0C68F02-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni006.bmp"
+    }
+    "F:{E0C68F03-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni007.bmp"
+    }
+    "F:{E0C68F04-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni008.bmp"
+    }
+    "F:{E0C68F05-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni009.bmp"
+    }
+    "F:{E0C68F06-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni010.bmp"
+    }
+    "F:{E0C68F07-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni011.bmp"
+    }
+    "F:{E0C68F08-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni012.bmp"
+    }
+    "F:{E0C68F09-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni013.bmp"
+    }
+    "F:{E0C68F0A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni014.bmp"
+    }
+    "F:{E0C68F0B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni015.bmp"
+    }
+    "F:{E0C68F0C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni016.bmp"
+    }
+    "F:{E0C68F0D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni017.bmp"
+    }
+    "F:{E0C68F0E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\furni018.bmp"
+    }
+    "F:{E0C68F0F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\IADVE001.bmp"
+    }
+    "F:{E0C68F10-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\IADVE002.bmp"
+    }
+    "F:{E0C68F11-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\IADVE003.bmp"
+    }
+    "F:{E0C68F12-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\imani.bmp"
+    }
+    "F:{E0C68F13-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\imwin.bmp"
+    }
+    "F:{E0C68F14-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\lasite.gif"
+    }
+    "F:{E0C68F15-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\lasite.htm"
+    }
+    "F:{E0C68F16-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\liquidad.bmp"
+    }
+    "F:{E0C68F17-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MapEd.exe"
+    }
+    "F:{E0C68F18-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBtnCP0.bmp"
+    }
+    "F:{E0C68F19-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBTNCP1.bmp"
+    }
+    "F:{E0C68F1A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBTNCP2.bmp"
+    }
+    "F:{E0C68F1B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBTNCP3.bmp"
+    }
+    "F:{E0C68F1C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBTNCP4.bmp"
+    }
+    "F:{E0C68F1D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBTNCP5.bmp"
+    }
+    "F:{E0C68F1E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBtnNo.bmp"
+    }
+    "F:{E0C68F1F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MBtnOk.bmp"
+    }
+    "F:{E0C68F20-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MClose.bmp"
+    }
+    "F:{E0C68F21-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MCVTN000.MID"
+    }
+    "F:{E0C68F22-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MDRMO000.MID"
+    }
+    "F:{E0C68F23-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MFANF000.MID"
+    }
+    "F:{E0C68F24-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\Mfc42.dll"
+    }
+    "F:{E0C68F25-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous001.bmp"
+    }
+    "F:{E0C68F26-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous002.bmp"
+    }
+    "F:{E0C68F27-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous003.bmp"
+    }
+    "F:{E0C68F28-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous004.bmp"
+    }
+    "F:{E0C68F29-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous005.bmp"
+    }
+    "F:{E0C68F2A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous006.bmp"
+    }
+    "F:{E0C68F2B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MHOUS007.bmp"
+    }
+    "F:{E0C68F2C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MHOUS008.bmp"
+    }
+    "F:{E0C68F2D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous009.bmp"
+    }
+    "F:{E0C68F2E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous010.bmp"
+    }
+    "F:{E0C68F2F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\mhous011.bmp"
+    }
+    "F:{E0C68F30-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MINTR000.MID"
+    }
+    "F:{E0C68F31-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MINTR001.MID"
+    }
+    "F:{E0C68F32-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ000.MID"
+    }
+    "F:{E0C68F33-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ001.MID"
+    }
+    "F:{E0C68F34-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ002.MID"
+    }
+    "F:{E0C68F35-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ003.MID"
+    }
+    "F:{E0C68F36-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ004.MID"
+    }
+    "F:{E0C68F37-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ005.MID"
+    }
+    "F:{E0C68F38-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJAZZ006.MID"
+    }
+    "F:{E0C68F39-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MJOPL000.MID"
+    }
+    "F:{E0C68F3A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MLoginBk.bmp"
+    }
+    "F:{E0C68F3B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MMIDI000.MID"
+    }
+    "F:{E0C68F3C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MMIDI001.MID"
+    }
+    "F:{E0C68F3D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MMORE000.MID"
+    }
+    "F:{E0C68F3E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MMZRT000.MID"
+    }
+    "F:{E0C68F3F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\motwn000.mid"
+    }
+    "F:{E0C68F40-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPanelBk.bmp"
+    }
+    "F:{E0C68F41-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPanIL.bmp"
+    }
+    "F:{E0C68F42-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPANILM.bmp"
+    }
+    "F:{E0C68F43-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPAniU.bmp"
+    }
+    "F:{E0C68F44-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPANIUM.bmp"
+    }
+    "F:{E0C68F45-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPBtAuto.bmp"
+    }
+    "F:{E0C68F46-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPBtBuy.bmp"
+    }
+    "F:{E0C68F47-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPBtClos.bmp"
+    }
+    "F:{E0C68F48-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPBtLeft.bmp"
+    }
+    "F:{E0C68F49-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPBtMore.bmp"
+    }
+    "F:{E0C68F4A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPBtRght.bmp"
+    }
+    "F:{E0C68F4B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MPDABk.bmp"
+    }
+    "F:{E0C68F4C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MRACH000.MID"
+    }
+    "F:{E0C68F4D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MSADD000.MID"
+    }
+    "F:{E0C68F4E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MSplash.bmp"
+    }
+    "F:{E0C68F4F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MSTRS000.MID"
+    }
+    "F:{E0C68F50-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MSUSP000.MID"
+    }
+    "F:{E0C68F51-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MSVCIRT.DLL"
+    }
+    "F:{E0C68F52-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MSVCRT.DLL"
+    }
+    "F:{E0C68F53-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\multi001.bmp"
+    }
+    "F:{E0C68F54-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MUMCH000.MID"
+    }
+    "F:{E0C68F55-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\MXMAS000.MID"
+    }
+    "F:{E0C68F56-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\overt000.mid"
+    }
+    "F:{E0C68F57-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\profile.bmp"
+    }
+    "F:{E0C68F58-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\qvdemo_script.doc"
+    }
+    "F:{E0C68F59-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ROOFp001.bmp"
+    }
+    "F:{E0C68F5A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ROOFp002.bmp"
+    }
+    "F:{E0C68F5B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ROOFp003.bmp"
+    }
+    "F:{E0C68F5C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ROOFp004.bmp"
+    }
+    "F:{E0C68F5D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\ROOFp005.bmp"
+    }
+    "F:{E0C68F5E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SAGRY000.WAV"
+    }
+    "F:{E0C68F5F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SCHNG000.WAV"
+    }
+    "F:{E0C68F60-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SCHNG001.WAV"
+    }
+    "F:{E0C68F61-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SCHNG002.WAV"
+    }
+    "F:{E0C68F62-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SCLOS000.WAV"
+    }
+    "F:{E0C68F63-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SCRYS000.WAV"
+    }
+    "F:{E0C68F64-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SEMBR000.WAV"
+    }
+    "F:{E0C68F65-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SEMBR001.WAV"
+    }
+    "F:{E0C68F66-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SHIT_000.WAV"
+    }
+    "F:{E0C68F67-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SHIT_001.WAV"
+    }
+    "F:{E0C68F68-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SHIT_002.WAV"
+    }
+    "F:{E0C68F69-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SHIT_003.WAV"
+    }
+    "F:{E0C68F6A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SJPDN000.WAV"
+    }
+    "F:{E0C68F6B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SJPDN001.WAV"
+    }
+    "F:{E0C68F6C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SJPUP000.WAV"
+    }
+    "F:{E0C68F6D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SJPUP001.WAV"
+    }
+    "F:{E0C68F6E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SKISS000.WAV"
+    }
+    "F:{E0C68F6F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\sm525wi.bmp"
+    }
+    "F:{E0C68F70-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SMAD.bmp"
+    }
+    "F:{E0C68F71-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\smani.bmp"
+    }
+    "F:{E0C68F72-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SPICK000.WAV"
+    }
+    "F:{E0C68F73-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SSEXY000.WAV"
+    }
+    "F:{E0C68F74-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SSTEP000.WAV"
+    }
+    "F:{E0C68F75-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\SSURP000.WAV"
+    }
+    "F:{E0C68F76-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STEMP000.WAV"
+    }
+    "F:{E0C68F77-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STEMP001.WAV"
+    }
+    "F:{E0C68F78-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STEMP002.WAV"
+    }
+    "F:{E0C68F79-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STEMP003.WAV"
+    }
+    "F:{E0C68F7A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STRAN000.WAV"
+    }
+    "F:{E0C68F7B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STURN000.WAV"
+    }
+    "F:{E0C68F7C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\STURN001.WAV"
+    }
+    "F:{E0C68F7D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\T00.UDS"
+    }
+    "F:{E0C68F7E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\titanic.wav"
+    }
+    "F:{E0C68F7F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\U2Login.uds"
+    }
+    "F:{E0C68F80-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\U2Panel.uds"
+    }
+    "F:{E0C68F81-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\U2RES000.RIT"
+    }
+    "F:{E0C68F82-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\UC2Ani.dll"
+    }
+    "F:{E0C68F83-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wallp001.bmp"
+    }
+    "F:{E0C68F84-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wallp002.bmp"
+    }
+    "F:{E0C68F85-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wallp003.bmp"
+    }
+    "F:{E0C68F86-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wallp004.bmp"
+    }
+    "F:{E0C68F87-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wallp005.bmp"
+    }
+    "F:{E0C68F88-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wallp006.bmp"
+    }
+    "F:{E0C68F89-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp007.bmp"
+    }
+    "F:{E0C68F8A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp008.bmp"
+    }
+    "F:{E0C68F8B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp009.bmp"
+    }
+    "F:{E0C68F8C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp010.bmp"
+    }
+    "F:{E0C68F8D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp011.bmp"
+    }
+    "F:{E0C68F8E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp012.bmp"
+    }
+    "F:{E0C68F8F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp013.bmp"
+    }
+    "F:{E0C68F90-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp014.bmp"
+    }
+    "F:{E0C68F91-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp015.bmp"
+    }
+    "F:{E0C68F92-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp016.bmp"
+    }
+    "F:{E0C68F93-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp017.bmp"
+    }
+    "F:{E0C68F94-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp018.bmp"
+    }
+    "F:{E0C68F95-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp019.bmp"
+    }
+    "F:{E0C68F96-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp020.bmp"
+    }
+    "F:{E0C68F97-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp021.bmp"
+    }
+    "F:{E0C68F98-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp022.bmp"
+    }
+    "F:{E0C68F99-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp023.bmp"
+    }
+    "F:{E0C68F9A-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp024.bmp"
+    }
+    "F:{E0C68F9B-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp025.bmp"
+    }
+    "F:{E0C68F9C-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp026.bmp"
+    }
+    "F:{E0C68F9D-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WALLp027.bmp"
+    }
+    "F:{E0C68F9E-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\WoW.exe"
+    }
+    "F:{E0C68F9F-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wowblist.bmp"
+    }
+    "F:{E0C68FA0-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\wowmap.bmp"
+    }
+    "F:{E0C68FA1-9A1E-11D2-89D4-D2F4FA000000}"
+    {
+    "Filename" = "F:\\UC2\\mall\\0010lqad.sit"
+    }
+}
+"Configurations"
+{
+    "Debug"
+    {
+    "DisplayName" = "Debug"
+    "IsDebugOnly" = "T"
+    "IsReleaseOnly" = "F"
+        "EngineSpecificProperties"
+        {
+            "{61F73E15-FC82-11D0-A4B8-006097C9933C}"
+            {
+            "OutputFilename" = "WoWSetup.EXE"
+            "AppName" = "WoW - QuarterView"
+            "InstallDirName" = "WoW"
+            "CreateInProgramFiles" = "T"
+            "CreateInStartMenu" = "T"
+            "StartName" = "WoW Demo - QuarterView"
+            "StartInvokeEXE" = "<AppDir>\\WoW.exe"
+            "StartInvokeArgument" = ""
+            "IncludeAll" = "F"
+                "WebLibraryCollection"
+                {
+                    "WebLibraries"
+                    {
+                        "ADODLL"
+                        {
+                        "SectionName" = "ADODLL"
+                        "Setting" = "F"
+                        }
+                        "Microsoft Windows Foundation Classes for Java"
+                        {
+                        "SectionName" = "Microsoft Windows Foundation Classes for Java"
+                        "Setting" = "F"
+                        }
+                        "VMINST"
+                        {
+                        "SectionName" = "VMINST"
+                        "Setting" = "F"
+                        }
+                    }
+                }
+                "EXEsToRun"
+                {
+                }
+            "SPCFilename" = ""
+            "SigningEnabled" = "T"
+            "SelectCertificate" = "F"
+            "KeyName" = ""
+            "TimeserverURL" = "http://timestamp.verisign.com/scripts/timstamp.dll"
+                "RemoteComponents"
+                {
+                }
+            "RemoteServer" = ""
+            "PromptAlways" = "F"
+            "SetupFileProperties" = "0"
+                "SystemFiles"
+                {
+                }
+            }
+        }
+    }
+    "Release"
+    {
+    "DisplayName" = "Release"
+    "IsDebugOnly" = "F"
+    "IsReleaseOnly" = "T"
+        "EngineSpecificProperties"
+        {
+            "{61F73E15-FC82-11D0-A4B8-006097C9933C}"
+            {
+            "OutputFilename" = "WoWSetup.EXE"
+            "AppName" = "WoW - QuarterView"
+            "InstallDirName" = "WoW"
+            "CreateInProgramFiles" = "T"
+            "CreateInStartMenu" = "T"
+            "StartName" = "WoW Demo - QuarterView"
+            "StartInvokeEXE" = "<AppDir>\\WoW.exe"
+            "StartInvokeArgument" = ""
+            "IncludeAll" = "F"
+                "WebLibraryCollection"
+                {
+                    "WebLibraries"
+                    {
+                        "ADODLL"
+                        {
+                        "SectionName" = "ADODLL"
+                        "Setting" = "F"
+                        }
+                        "Microsoft Windows Foundation Classes for Java"
+                        {
+                        "SectionName" = "Microsoft Windows Foundation Classes for Java"
+                        "Setting" = "F"
+                        }
+                        "VMINST"
+                        {
+                        "SectionName" = "VMINST"
+                        "Setting" = "F"
+                        }
+                    }
+                }
+                "EXEsToRun"
+                {
+                }
+            "SPCFilename" = ""
+            "SigningEnabled" = "T"
+            "SelectCertificate" = "F"
+            "KeyName" = ""
+            "TimeserverURL" = "http://timestamp.verisign.com/scripts/timstamp.dll"
+                "RemoteComponents"
+                {
+                }
+            "RemoteServer" = ""
+            "PromptAlways" = "F"
+            "SetupFileProperties" = "0"
+                "SystemFiles"
+                {
+                }
+            }
+        }
+    }
+}

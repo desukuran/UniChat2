@@ -1,0 +1,137 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>readme</TITLE>
+<META NAME="Template" CONTENT="C:\PROGRAM FILES\MICROSOFT OFFICE\OFFICE\html.dot">
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<P><A NAME="top"></P>
+<H2>Creating and Using Digitally Signed CAB Files</H2>
+<P>This article has four sections: </P>
+
+<UL>
+<LI><A HREF="#overview">Overview of the sample</A> </LI>
+<LI><A HREF="#setup">How to use this sample</A> </LI>
+<LI><A HREF="#errors">Troubleshooting this sample</A> </LI>
+<LI><A HREF="#files">Files in this sample</A> </LI></UL>
+
+<P>To see: </P>
+
+<UL>
+<LI>the sample as an applet, see <A HREF="javabeep.html">javabeep.html</A>. </LI>
+<LI>the sample as a standalone application, follow the instructions in <A HREF="javabeepframe.html">javabeepframe.html</A>. </LI>
+<LI>the source code, click <A HREF="javabeep.java">here</A>. </LI></UL>
+
+<P>See the </P>
+<P>To see the sample as a standalone </P>
+<P><HR></P>
+<P><A NAME="overview"></P>
+<H3>Overview of the sample</H3>
+<P>The <B>CabAndSign</B> sample demonstrates how the Cabinet Development Kit and the Code Sign Kit are used to create signed cabinet (CAB) files. Signed CAB files are required if a Java applet is to use COM components. </P>
+<H4>About the server</H4>
+<P>BEEPER.DLL is a simple Automation server. It is one of the samples from the ActiveX<SUP>&trade;</SUP> Template Library (ATL). You can download ATL from the Web (<A HREF="http://www.microsoft.com/visualc/v42/atl/">www.microsoft.com/visualc/v42/atl/</A>). </P>
+<P>Beeper has two methods and one property of interest. </P>
+
+<UL>
+<LI>In response to calling the Beep method, Beeper plays the default system sound five out of six times. Every sixth call fails. </LI>
+<LI>The getItem method returns a String. </LI>
+<LI>The read-only Count property gives the number of different strings getItem will return. </LI></UL>
+
+<H4>About the sample</H4>
+<B><P>javabeep</B> creates a Beeper object (COM component). It calls the Beep method of Beeper in response to mouseDown events. If the call succeeds, Beeper plays the default system sound. <B>javabeep</B> then calls getItem to get a series of strings from Beeper. It displays the set of strings at the location of the mouseDown. If the call fails (as it will every sixth time), no system sound occurs. In response, <B>javabeep</B> places an error message at the location of the mouseDown event. </P>
+<P>See <B>javabeep.start</B> for creating the beeper COM component. See <B>javabeep.mouseDown</B> for the calls to the beeper COM component and handling the failure of the call to Beep. Use ClassView to help you find these methods. </P>
+<H4>About security</H4>
+<P>COM components can access any system resources. As such, they are both very powerful and potentially very dangerous. In the Java virtual machine (VM) in Microsoft<SUP>&reg;</SUP> Internet Explorer 3.0 only trusted class files can use COM components. Class files from digitally signed CAB files are trusted. </P>
+<P>If the HTML file is run from Microsoft Developer Studio, the class files are also trusted. This can be very helpful during applet development. <I>However, to deliver your applet to other users, you must put it in a signed CAB file.</I> </P>
+<P>The code for the applet itself is taken from the <B>JavaBeep</B> sample. For more information on the Java code and the server, see the JavaBeep sample. </P>
+<FONT SIZE=2><P>Return to the </FONT><A HREF="#top"><FONT SIZE=2>top</FONT></A><FONT SIZE=2> of this article. </P>
+</FONT><P><HR></P>
+<P><A NAME="setup"></P>
+<H3>How to use this sample</H3>
+<P>To run the CabAndSign sample: </P>
+<OL>
+
+<LI>Register BEEPER.DLL, the COM component for this sample.<BR>
+See <A HREF="register.html">Registering a COM Component</A>. </LI>
+<LI>Create a Java interface for the COM component.<BR>
+See <A HREF="javatlb.html">Creating a Java Interface for a COM component</A>. </LI>
+<LI>In Explorer, double-click the WVTSTON.REG file to enable test certificates on this machine. </LI>
+<LI>In Explorer, double-click the JAVABEEP.HTML file to open it. </LI></OL>
+
+<P>To create your own CAB file and sign it: </P>
+<OL>
+
+<LI>Create a CAB file with your CLASS files.<BR>
+See <A HREF="cab.html">Making Cabinets</A>. </LI>
+<LI>Create a test certificate (this needs to be done only once).<BR>
+See <A HREF="cert.html">Creating a Test Certificate</A>. </LI>
+<LI>Sign the CAB file with your certificate.<BR>
+See <A HREF="sign.html">Signing a Program File</A>. </LI></OL>
+
+<P>To use the .CLASS files from a CAB file: </P>
+
+<UL>
+<LI>Add a parameter to the &lt;APPLET&gt; tag naming the CAB file. </LI></UL>
+
+<BLOCKQUOTE>For example: </BLOCKQUOTE><DIR>
+
+<PRE>     &lt;param name="cabbase" value="firstcab.cab"&gt;</PRE></DIR>
+
+<FONT SIZE=2><P>Return to the </FONT><A HREF="#top"><FONT SIZE=2>top</FONT></A><FONT SIZE=2> of this article. </P>
+</FONT><P><HR></P>
+<P><A NAME="errors"></P>
+<H3>Troubleshooting this sample</H3>
+<P>If you did not see the certificate: </P>
+
+<UL>
+<LI>In Explorer, double-click the WVTSTON.REG file to enable test certificates on this machine. </LI></UL>
+
+<P>If you get the error message <B>ClassNotFoundException</B>: </P>
+
+<UL>
+<LI><A HREF="javatlb.html">Create a Java interface for the COM server</A>. </LI></UL>
+
+<P>If you get the error message <B>UnsatisfiedLinkError</B>: </P>
+
+<UL>
+<LI><A HREF="register.html">Register the COM server</A>. </LI></UL>
+
+<FONT SIZE=2><P>Return to the </FONT><A HREF="#top"><FONT SIZE=2>top</FONT></A><FONT SIZE=2> of this article. </P>
+</FONT><P><HR></P>
+<P><A NAME="files"></P>
+<H3>Files in this sample</H3>
+<P>This sample includes the following files. </P>
+<P>Primary files: </P>
+
+<UL>
+<LI>javabeep.html - the HTML for the sample applet </LI>
+<LI>beeper.dll - the COM component </LI>
+<LI>firstcab.cab - the signed CAB file with the .CLASS file </LI>
+<LI>wvtston.reg - the registry file to enable test certificates </LI></UL>
+
+<P>Project files: </P>
+
+<UL>
+<LI>javabeep.java - the Java source code for the sample </LI>
+<LI>javabeepframe.java - the Java source code for the sample as a standalone application </LI>
+<LI>cabandsign.dsw - the project workspace file </LI>
+<LI>cabandsign.dsp - the project file </LI>
+<LI>images\img00xx - the .GIF files for the spinning globe </LI></UL>
+
+<P>Support files: </P>
+
+<UL>
+<LI>javabeepframe.html - description of how to run the applet as a standalone application </LI>
+<LI>cabandsign.html - an alternate project HTML file </LI>
+<LI>firstcab.ddf - the DDF file describing the CAB file </LI>
+<LI>readme.html - this read me file </LI>
+<LI>register.html - instructions for registering a COM component </LI>
+<LI>javatlb.html - instructions for creating a Java interface for COM components </LI>
+<LI>cab.html - instructions for creating CAB files </LI>
+<LI>cert.html - instructions for creating a test certificate </LI>
+<LI>sign.html - instructions for signing a program file </LI></UL>
+
+<FONT SIZE=2><P>Return to the </FONT><A HREF="#top"><FONT SIZE=2>top</FONT></A><FONT SIZE=2> of this article. </A></A></A></A></A></P></FONT></BODY>
+</HTML>

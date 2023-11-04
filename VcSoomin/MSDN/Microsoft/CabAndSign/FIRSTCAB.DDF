@@ -1,0 +1,7 @@
+.OPTION EXPLICIT 
+.Set CabinetNameTemplate=firstcab.cab
+.Set DiskDirectoryTemplate=
+.Set Cabinet=on
+.Set Compress=on
+.Set ReservePerCabinetSize=6144
+javabeep.class

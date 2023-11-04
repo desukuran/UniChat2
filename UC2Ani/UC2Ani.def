@@ -1,0 +1,7 @@
+; UC2Ani.def : Declares the module parameters for the DLL.
+
+LIBRARY      "UC2Ani"
+DESCRIPTION  'UC2Ani Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

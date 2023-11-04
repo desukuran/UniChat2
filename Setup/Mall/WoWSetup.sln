@@ -1,0 +1,13 @@
+Microsoft Visual Studio Solution File, Format Version 1.00
+Project("{491C8F90-CE40-11D0-8A4D-00A0C91E2ACD}") = "WoWSetup", "WoWSetup.pkp", "{9AAA5140-98F2-11D2-89CF-0080C7EADFBB}"
+EndProject
+Global
+	GlobalSection(LocalDeployment) = postSolution
+		StartupProject = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(BuildOrder) = postSolution
+		0 = {9AAA5140-98F2-11D2-89CF-0080C7EADFBB}
+	EndGlobalSection
+	GlobalSection(DeploymentRoot) = postSolution
+	EndGlobalSection
+EndGlobal

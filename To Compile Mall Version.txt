@@ -1,0 +1,20 @@
+Mall
+====
+1. Add Preprocessor definition _MALL to the option dialog.
+Project => Settings => C/C++ => Processor definitions
+
+2. Add some source files into the project.
+DlgAni.cpp
+DlgPDA.cpp
+PPPaymentInfo.cpp
+PPShoppingCart.cpp
+
+3.  In the files UC2View.h and UC2View.cpp,
+ add some afx_msg lines commented out as "/* MALL */".
+
+4. Change icon files in UC2/res directory.
+
+5. Copy files in UC2/I.Mall directory to U2 directory.
+
+6. Replace the file u2res000.rit with u2res000_Mall.rit.
+

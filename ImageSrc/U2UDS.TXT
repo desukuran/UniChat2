@@ -1,0 +1,27 @@
+Mar 7 sat, 1998
+
+t00.uds
+========
+t*.bmp
+
+ca00.uds
+========
+ca*.bmp ~ cc*.bmp
+
+cd00.uds
+========
+cd*.bmp ~ cf*.bmp
+
+cg00.uds
+========
+cg*.bmp ~ cp*.bmp
+
+cs00.uds
+========
+cs*.bmp ~ ct*.bmp
+
+cw00.uds
+========
+cw*.bmp ~
+i*.bmp
+w*.bmp

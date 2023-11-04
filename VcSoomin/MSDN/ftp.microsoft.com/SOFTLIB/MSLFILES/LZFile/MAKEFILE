@@ -1,0 +1,26 @@
+#
+#   Makefile for Sample Application
+#   Copyright (c) 1992 Microsoft Corporation. All rights reserved.
+#
+
+CC     =   cl -c -AM -Gsw -nologo -Od -W3 -Zipe
+LN     =   link /m/CO/NOD/NOE/NOL/A:16
+SRC    =   main.c init.c
+OBJ    =   main.obj init.obj
+
+.c.obj      :
+				echo Compiling: $*.c
+				$(CC) -NT $* $*.c >$*.err
+				type $*.err
+				del $*.err
+
+lzfile.exe    :   $(OBJ) main.res main.def
+				echo Linking: lzfile.exe
+				$(LN) $(OBJ), lzfile.exe, tm.map,lzexpand commdlg mlibcew libw, main.def
+				echo Adding Resources
+				rc -v main.res lzfile.exe
+
+main.res    :   main.rc global.h main.ico
+				echo RCing: main.rc
+				rc -r main.rc
+

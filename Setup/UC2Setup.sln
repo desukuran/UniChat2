@@ -1,0 +1,13 @@
+Microsoft Visual Studio Solution File, Format Version 1.00
+Project("{491C8F90-CE40-11D0-8A4D-00A0C91E2ACD}") = "UC2Setup", "UC2Setup.pkp", "{7EEA98B0-B9A4-11D2-89E7-0080C7EADFBB}"
+EndProject
+Global
+	GlobalSection(LocalDeployment) = postSolution
+		StartupProject = {00000000-0000-0000-0000-000000000000}
+	EndGlobalSection
+	GlobalSection(BuildOrder) = postSolution
+		0 = {7EEA98B0-B9A4-11D2-89E7-0080C7EADFBB}
+	EndGlobalSection
+	GlobalSection(DeploymentRoot) = postSolution
+	EndGlobalSection
+EndGlobal

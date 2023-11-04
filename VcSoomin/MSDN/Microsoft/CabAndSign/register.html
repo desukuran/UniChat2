@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>Registering a COM Component</title>
+</head>
+
+<body>
+
+<a name="top">
+<h2>Registering a COM Component</h2>
+
+This article has two sections:
+
+<ul>
+<li><a href=#what>Why register COM components?</a>
+<li><a href=#use>Using RegSvr32</a>
+</ul>
+
+See the <a href=javabeep.html>sample</a> or the <a href=readme.html>
+readme</a>.
+
+<hr>
+
+<a name="what">
+<h3>Why register COM components?</h3>
+
+The registry is a system database that holds configuration information.
+The registry provides necessary bindings between identifiers for COM
+components and the implementation for that component. COM components 
+need to be in the registry to be created.
+<p>
+
+Typically, a vendor registers COM components as part of the
+installation process. For this sample, there is no installation
+program, therefore, you must register the COM component yourself.
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+<hr>
+
+<a name="use">
+<h3>Using RegSvr32</h3>
+
+REGSVR32.EXE is a tool that registers server DLL files. The DLL
+must include self-registration information. All ActiveX<sup>&trade;</sup> controls 
+and many other COM components (in-process servers) are 
+self-registering.
+<p>
+
+To run RegSvr32:
+
+<ul>
+<li>In Windows<sup>&reg;</sup> 95, RegSvr32 is located in the SYSTEM subdirectory of the Windows 
+    installation directory. Typically, this directory is <i>not</i>
+	on the PATH. To run RegSvr32, in a command window type:
+	<pre>     %windir%\system\regsvr32 <i>serverfile</i></pre>
+<li>In Windows<sup>&reg;</sup> NT<sup>&reg;</sup>, RegSvr32 is located in the SYSTEM32 subdirectory of the Windows 
+    installation directory. Typically, this directory <i>is</i> on
+	the PATH. To run RegSvr32, in a command window type:
+	<pre>     regsvr32 <i>serverfile</i></pre>
+</ul>
+
+To register the COM component:
+
+<ol>
+<li>Create a command window.<br>
+    From the Start menu, select Programs.<br>
+	Select <b>MS-DOS Prompt</b> or <b>Command Prompt</b>, depending
+	on the version of the operating system.
+<li>In the command window, run RegSvr32.<br>
+ See the directions listed
+    earlier, substituting <b>beeper.dll</b> for <i>servername</i>.
+</ol>
+<p>
+
+<font size=-1>
+Return to the <a href=#top>top</a> of this article.
+</font>
+
+</body>
+</html>

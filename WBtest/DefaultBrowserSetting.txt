@@ -1,0 +1,4 @@
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\http\shell\open\command
+	"C:\PROGRA~1\PLUS!\MICROS~1\iexplore.exe" -nohome
+HKEY_LOCAL_MACHINE\SOFTWARE\Classes\http\shell\open\ddeexec\Application
+	IExplore

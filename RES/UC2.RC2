@@ -1,0 +1,15 @@
+//
+// UC2.RC2 - resources Microsoft Visual C++ does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Add manually edited resources here...
+
+/////////////////////////////////////////////////////////////////////////////
+//DIB_GRID_64X32		DIB	res/TGS6432.bmp
+DIB_ROOMKEY			DIB	res/RoomKey.bmp
